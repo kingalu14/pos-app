@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\prisma",
+    "\\src",
+    "\\src\\constants",
+    "\\src\\controllers",
+    "\\src\\repositories",
+    "\\src\\routes",
+    "\\src\\services",
+    "\\src\\utils"
+  ],
+  "SelectedNode": "\\src\\constants\\index.js",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,247 @@
+[{
+  "_id": {
+    "$oid": "669d780a0a8e6e570df88b28"
+  },
+  "name": "canEditProduct",
+  "description": "canEditProduct",
+  "createdAt": {
+    "$date": "2024-07-21T21:05:14.457Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:05:14.457Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d781c0a8e6e570df88b29"
+  },
+  "name": "canDeleteProduct",
+  "description": "canDeleteProduct",
+  "createdAt": {
+    "$date": "2024-07-21T21:05:32.275Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:05:32.275Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d78260a8e6e570df88b2a"
+  },
+  "name": "canAddCategory",
+  "description": "canAddCategory",
+  "createdAt": {
+    "$date": "2024-07-21T21:05:42.641Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:05:42.641Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d78330a8e6e570df88b2b"
+  },
+  "name": "canEditCategory",
+  "description": "canEditCategory",
+  "createdAt": {
+    "$date": "2024-07-21T21:05:55.897Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:05:55.897Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d783d0a8e6e570df88b2c"
+  },
+  "name": "canDeleteCategory",
+  "description": "canDeleteCategory",
+  "createdAt": {
+    "$date": "2024-07-21T21:06:05.060Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:06:05.060Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d78480a8e6e570df88b2d"
+  },
+  "name": "canAddProduct",
+  "description": "canAddProduct",
+  "createdAt": {
+    "$date": "2024-07-21T21:06:16.166Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:06:16.166Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede077371b3fabf591e96"
+  },
+  "name": "canViewCompanies",
+  "description": "canViewCompanies",
+  "createdAt": {
+    "$date": "2024-07-22T22:32:38.462Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:32:38.462Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede127371b3fabf591e97"
+  },
+  "name": "canCreateCompany",
+  "description": "canCreateCompany",
+  "createdAt": {
+    "$date": "2024-07-22T22:32:50.690Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:32:50.690Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede247371b3fabf591e98"
+  },
+  "name": "canViewCompany",
+  "description": "canViewCompany",
+  "createdAt": {
+    "$date": "2024-07-22T22:33:08.855Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:33:08.855Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede2d7371b3fabf591e99"
+  },
+  "name": "canUpdateCompany",
+  "description": "canUpdateCompany",
+  "createdAt": {
+    "$date": "2024-07-22T22:33:17.595Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:33:17.595Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede387371b3fabf591e9a"
+  },
+  "name": "canDeleteCompany",
+  "description": "canDeleteCompany",
+  "createdAt": {
+    "$date": "2024-07-22T22:33:28.241Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:33:28.241Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede487371b3fabf591e9b"
+  },
+  "name": "canManagePackages",
+  "description": "canManagePackages",
+  "createdAt": {
+    "$date": "2024-07-22T22:33:44.023Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:33:44.023Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede4f7371b3fabf591e9c"
+  },
+  "name": "canViewPackages",
+  "description": "canViewPackages",
+  "createdAt": {
+    "$date": "2024-07-22T22:33:51.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:33:51.770Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede677371b3fabf591e9d"
+  },
+  "name": "canCreateRole",
+  "description": "canCreateRole",
+  "createdAt": {
+    "$date": "2024-07-22T22:34:15.791Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:34:15.791Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede707371b3fabf591e9e"
+  },
+  "name": "canCreatePermission",
+  "description": "canCreatePermission",
+  "createdAt": {
+    "$date": "2024-07-22T22:34:24.003Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:34:24.003Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede7b7371b3fabf591e9f"
+  },
+  "name": "canAssignPermission",
+  "description": "canAssignPermission",
+  "createdAt": {
+    "$date": "2024-07-22T22:34:35.107Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:34:35.107Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede857371b3fabf591ea0"
+  },
+  "name": "canViewPermissions",
+  "description": "canViewPermissions",
+  "createdAt": {
+    "$date": "2024-07-22T22:34:45.514Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:34:45.514Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede947371b3fabf591ea1"
+  },
+  "name": "canManageSubscriptions",
+  "description": "canManageSubscriptions",
+  "createdAt": {
+    "$date": "2024-07-22T22:35:00.704Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:35:00.704Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669ede9c7371b3fabf591ea2"
+  },
+  "name": "canViewSubscriptions",
+  "description": "canViewSubscriptions",
+  "createdAt": {
+    "$date": "2024-07-22T22:35:08.631Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:35:08.631Z"
+  }
+}]
