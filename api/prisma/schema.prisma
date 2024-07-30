@@ -192,3 +192,14 @@ model OrderItem {
   Product   Product  @relation(fields: [productId], references: [id])
   @@map("order_items")
 }
+
+model Invoice {
+  id  String   @id @default(auto()) @map("_id") @db.ObjectId
+  customerName String 
+  phoneNumber String
+  paymentType String
+  subTotal Float
+  tax Float
+  totalAmount Float
+  CartItem CartItem[]
+}
