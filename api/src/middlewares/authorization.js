@@ -4,6 +4,9 @@ const checkPermission = (permissionName) => {
     return async (req, res, next) => {
         try {
             const user = req.user; // Assuming user is already authenticated and available in req.user
+            if(!user.roleId){
+                throw new Error('Not Authorized for this action');
+            }
             const role = await prisma.role.findFirst({
                 where: {
                     id: user.roleId
