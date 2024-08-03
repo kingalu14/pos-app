@@ -20,7 +20,17 @@ const login = async (req, res) => {
     }
 };
 
+const allUsers = async (req, res) => {
+    try {
+        const users = await authService.allUsers();
+        res.json({ users });
+    } catch (error) {
+        res.status(400).json({ message: error.message });
+    }
+};
+
 module.exports = {
     register,
     login,
+    allUsers,
 };

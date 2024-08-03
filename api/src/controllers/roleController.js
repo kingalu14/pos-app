@@ -29,6 +29,15 @@ const assignPermissionToRole = async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 };
+const assignRoleToUser = async (req, res) => {
+    const { userId,roleId } = req.body;
+    try {
+        const user = await roleService.assignRoleToUser(userId,roleId);  
+        res.status(201).json(user);
+    } catch (error) {
+        res.status(500).json({ message: error.message });
+    }
+};
 
 const getPermissionsForRole = async (req, res) => {
     const { roleId } = req.params;
@@ -44,5 +53,6 @@ module.exports = {
     createRole,
     createPermission,
     assignPermissionToRole,
-    getPermissionsForRole
+    getPermissionsForRole,
+    assignRoleToUser
 };

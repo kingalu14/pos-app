@@ -29,6 +29,10 @@ const assignPermissionToRole = async (roleId, permissionId) => {
     return rolePermission;
 };
 
+const assignRoleToUser = async (userId,roleId) => {
+      return await prisma.user.update({ where: { id:userId },   data: { roleId }, });
+};
+
 const getPermissionsForRole = async (roleId) => {
     const permissions = await prisma.permission.findMany({
         where: {
@@ -68,5 +72,6 @@ module.exports = {
     assignPermissionToRole,
     getPermissionsForRole,
     existingRolePermission,
-    existingPermission
+    existingPermission,
+    assignRoleToUser
 };

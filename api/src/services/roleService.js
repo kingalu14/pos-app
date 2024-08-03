@@ -23,6 +23,26 @@ const assignPermissionToRole = async (roleId, permissionId) => {
     return rolePermission;
 };
 
+const assignRoleToUser = async (userId,roleId) => {
+    const user = await prisma.user.findUnique({ where: { 
+        id:userId,
+         }
+      });
+      if(!user) {
+        throw new Error('No record found');
+      }
+       
+    const role = await prisma.role.findUnique({
+        where:{
+            id:roleId
+        }
+    })
+    if(!role) {
+        throw new Error('role not found');
+    }
+    return roleRepository.assignRoleToUser(roleId, permissionId);
+};
+
 const getPermissionsForRole = async (roleId) => {
     const permissions = await roleRepository.getPermissionsForRole(roleId)                 
     return permissions;
@@ -38,5 +58,6 @@ module.exports = {
     createPermission,
     assignPermissionToRole,
     getPermissionsForRole,
-    existingRolePermission
+    existingRolePermission,
+    assignRoleToUser
 };

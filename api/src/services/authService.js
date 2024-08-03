@@ -49,7 +49,6 @@ const allUsers = async () => {
     return users;
 };
 
-
 module.exports = {
     registerUser,
     loginUser,
