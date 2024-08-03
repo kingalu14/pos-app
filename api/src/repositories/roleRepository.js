@@ -66,6 +66,15 @@ const existingPermission = async (name) => {
     return permissions;
 };
 
+const existingRole = async (id) => {
+    const role = await prisma.role.findUnique({
+        where: {
+            id
+        },
+    });
+    return role;
+};
+
 module.exports = {
     createRole,
     createPermission,
@@ -73,5 +82,6 @@ module.exports = {
     getPermissionsForRole,
     existingRolePermission,
     existingPermission,
-    assignRoleToUser
+    assignRoleToUser,
+    existingRole
 };

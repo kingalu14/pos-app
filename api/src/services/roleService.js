@@ -1,4 +1,5 @@
 const roleRepository = require('../repositories/roleRepository');
+const userRepository = require('../repositories/userRepository');
 
 const createRole = async (name) => {
     const role = await roleRepository.createRole(name);
@@ -24,19 +25,11 @@ const assignPermissionToRole = async (roleId, permissionId) => {
 };
 
 const assignRoleToUser = async (userId,roleId) => {
-    const user = await prisma.user.findUnique({ where: { 
-        id:userId,
-         }
-      });
+    const user = await userRepository.getUserById(userId);
       if(!user) {
         throw new Error('No record found');
-      }
-       
-    const role = await prisma.role.findUnique({
-        where:{
-            id:roleId
-        }
-    })
+      }  
+    const role = await roleRepository.existingRole(roleId);
     if(!role) {
         throw new Error('role not found');
     }
