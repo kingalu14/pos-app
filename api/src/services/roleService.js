@@ -33,7 +33,7 @@ const assignRoleToUser = async (userId,roleId) => {
     if(!role) {
         throw new Error('role not found');
     }
-    return roleRepository.assignRoleToUser(roleId, permissionId);
+    return roleRepository.assignRoleToUser(userId,roleId);
 };
 
 const getPermissionsForRole = async (roleId) => {
