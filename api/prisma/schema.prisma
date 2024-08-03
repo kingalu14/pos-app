@@ -153,9 +153,7 @@ model Cart {
   updatedAt DateTime  @updatedAt
   CartItem  CartItem[]
   User      User      @relation(fields: [userId], references: [id])
-
   @@map("carts")
-  @@index([userId, status])
   @@unique([userId, status])
 }
 

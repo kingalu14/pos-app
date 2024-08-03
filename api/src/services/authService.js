@@ -40,7 +40,18 @@ const loginUser = async (username, password) => {
     return token;
 };
 
+
+const allUsers = async () => {
+    const users = await prisma.user.findMany();
+    if (!user) {
+        throw new Error('No record found credentials');
+    }
+    return users;
+};
+
+
 module.exports = {
     registerUser,
     loginUser,
+    allUsers,
 };
