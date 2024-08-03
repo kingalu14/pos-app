@@ -15,6 +15,7 @@ const companyRoutes = require('./routes/companyRoutes');
 const subscriptionRoutes = require('./routes/subscriptionRoutes');
 const packageRoutes = require('./routes/packageRoutes');
 const cartRoutes = require('./routes/cartRoutes');
+const userRoutes = require('./routes/userRoutes');
 //const invoicesRoutes = require('../src/routes/invoices.js');
 
 // configure dotenv
@@ -34,6 +35,7 @@ app.use('/api', companyRoutes);
 app.use('/api', subscriptionRoutes);
 app.use('/api/packages', packageRoutes);
 app.use('/api/cart', cartRoutes);
+app.use('/api/users', userRoutes);
 //app.use('/api/invoices', invoicesRoutes);
 app.use('/api/auth', authRoutes);
 

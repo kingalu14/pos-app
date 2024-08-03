@@ -2,7 +2,7 @@ const prisma = require('../config/prisma');
 
 class UserRepository {
 
-    async allUsers(){
+    async getUsers(){
         return await prisma.user.findMany();
     }
 
