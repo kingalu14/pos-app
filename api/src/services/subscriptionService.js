@@ -1,7 +1,7 @@
 const prisma = require('../config/prisma');
 const { processStripePayment } = require('../utils/paymentHandler');
 
-const createSubscription = async (companyId, packageId, paymentToken=null) => {
+const createSubscription = async (vendorId, packageId, paymentToken=null) => {
 
     try {
         const package = await prisma.package.findUnique({
@@ -20,7 +20,7 @@ const createSubscription = async (companyId, packageId, paymentToken=null) => {
 
         return await prisma.subscription.create({
             data: {
-                companyId,
+                vendorId,
                 packageId,
                 endDate
             }
@@ -32,17 +32,17 @@ const createSubscription = async (companyId, packageId, paymentToken=null) => {
     }
 };
 
-const getSubscriptionsByCompanyId = async (companyId) => {
+const getSubscriptionsByVendorId = async (vendorId) => {
     return await prisma.subscription.findMany({
-        where: { companyId }
+        where: { vendorId }
     });
 };
 
-const getActiveSubscriptionByCompanyId = async (companyId) => {
+const getActiveSubscriptionByVendorId = async (vendorId) => {
     const now = new Date();
     return await prisma.subscription.findFirst({
         where: {
-            companyId,
+            vendorId,
             startDate: { lte: now },
             endDate: { gte: now }
         }
@@ -51,6 +51,5 @@ const getActiveSubscriptionByCompanyId = async (companyId) => {
 
 module.exports = {
     createSubscription,
-    getSubscriptionsByCompanyId,
-    getActiveSubscriptionByCompanyId
-};
+    getSubscriptionsByVendorId,
+    getActiveSubscriptionByVendorId};

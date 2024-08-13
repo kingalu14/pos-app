@@ -1,25 +1,39 @@
 const dotenv = require('dotenv');
-const express = require('express')
+const express = require('express');
+const sessionManager = require('./utils/sessionManager');
+// configure dotenv
+dotenv.config();
+
 // create an express app
 const app = express();
-
 const bodyParser = require('body-parser');
 const connectDB = require('../src/config/db.js');
 
-//routes
+
+
+// Apply the singleton session middleware to your Express app
+app.use(sessionManager.getSessionMiddleware());
+  
+//   app.use('/', function(req,res){
+//      res.send("hello");
+//      console.log(req.session);
+//      console.log(req.session.id);
+//   });
+
+
+
 const roleRoutes = require('../src/routes/roleRoutes.js');
 const authRoutes = require('../src/routes/authRoutes.js');
 const categoriesRoutes = require('../src/routes/categoryRoutes.js');
 const productsRoutes = require('../src/routes/productRoutes.js');
-const companyRoutes = require('./routes/companyRoutes');
+const vendorRoutes = require('./routes/vendorRoutes');
 const subscriptionRoutes = require('./routes/subscriptionRoutes');
 const packageRoutes = require('./routes/packageRoutes');
 const cartRoutes = require('./routes/cartRoutes');
 const userRoutes = require('./routes/userRoutes');
 //const invoicesRoutes = require('../src/routes/invoices.js');
 
-// configure dotenv
-dotenv.config();
+
 
 // Middleware
 app.use(bodyParser.json());
@@ -31,7 +45,7 @@ app.use(express.json({ limit: "3mb" }));
 app.use('/api/roles', roleRoutes);
 app.use('/api/categories', categoriesRoutes);
 app.use('/api/products', productsRoutes);
-app.use('/api', companyRoutes);
+app.use('/api', vendorRoutes);
 app.use('/api', subscriptionRoutes);
 app.use('/api/packages', packageRoutes);
 app.use('/api/cart', cartRoutes);

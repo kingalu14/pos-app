@@ -1,0 +1,1366 @@
+2024-08-09T10:18:01.459Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T10:18:01.460Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:00:03.230Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:00:03.231Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:22:40.376Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:22:40.379Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:23:18.198Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:23:18.202Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:23:31.297Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:23:31.298Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:23:46.088Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:23:46.089Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:23:51.449Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:23:51.449Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:27:10.789Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:27:10.791Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:27:17.270Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:27:17.272Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:27:21.083Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:27:21.084Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:27:30.786Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:27:30.786Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:27:42.338Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:27:42.339Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:28:03.215Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:28:03.218Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:28:11.404Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:28:11.405Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:28:56.630Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:28:56.634Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:29:42.424Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:29:42.427Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:29:49.799Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:29:49.801Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:30:03.663Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:30:03.664Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:30:17.075Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:30:17.075Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:32:04.493Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:32:04.496Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:32:10.756Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:32:10.757Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:40:05.806Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:40:05.807Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:40:11.475Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:40:11.476Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:40:15.260Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:40:15.261Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:42:39.527Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:42:39.532Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:42:53.532Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:42:53.532Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:43:00.610Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:43:00.611Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:43:08.814Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:43:08.815Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:43:10.177Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:43:10.177Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:43:11.367Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:43:11.368Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:43:12.702Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:43:12.703Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:43:26.969Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:43:26.970Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:44:59.880Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:44:59.884Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:45:10.695Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:45:10.696Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:45:16.417Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:45:16.417Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:45:21.380Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:45:21.381Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T11:45:26.854Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of undefined (reading 'findFirst') (method: getOrCreateCart->getCart)
+2024-08-09T11:45:26.854Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T12:31:29.132Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T12:31:29.141Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T12:52:20.157Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T12:52:20.165Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T12:58:36.556Z [pos-app] error: Error in addItem: Cart is not defined (method: addItem)
+2024-08-09T13:02:50.269Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:02:50.276Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:03:20.477Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:03:20.478Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:10:05.552Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:10:05.553Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:21:11.158Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:21:11.163Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:21:20.616Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:21:20.617Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:21:24.199Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:21:24.200Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:21:25.443Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:21:25.444Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:21:27.023Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:34:28
+
+  31 
+  32 async createCart(sessionId) {
+  33     const data = { sessionId };
+→ 34     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:21:27.024Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:21:59.911Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T13:21:59.912Z [pos-app] error: Error in addItem: Cannot read properties of undefined (reading 'findIndex') (method: addItem)
+2024-08-09T13:26:08.096Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:31:28
+
+  28 
+  29 async createCart(sessionId) {
+  30     const data = { sessionId };
+→ 31     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T13:26:08.104Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T13:27:09.245Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T13:27:09.246Z [pos-app] error: Error in addItem: Cannot read properties of undefined (reading 'findIndex') (method: addItem)
+2024-08-09T15:40:37.022Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:31:28
+
+  28 
+  29 async createCart(sessionId) {
+  30     const data = { sessionId };
+→ 31     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T15:40:37.023Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T15:40:47.618Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:31:28
+
+  28 
+  29 async createCart(sessionId) {
+  30     const data = { sessionId };
+→ 31     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T15:40:47.620Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T15:41:10.344Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:31:28
+
+  28 
+  29 async createCart(sessionId) {
+  30     const data = { sessionId };
+→ 31     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T15:41:10.344Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T17:39:22.117Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T17:39:22.145Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:28:33.064Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:28:33.071Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:29:45.199Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:29:45.207Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:30:59.896Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:30:59.897Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:31:01.471Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:31:01.471Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:31:02.645Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:31:02.646Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:31:14.834Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:31:14.835Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:31:34.544Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:31:34.545Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T20:31:36.527Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:31:36.527Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T20:31:43.686Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:31:43.686Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:32:39.898Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:32:39.905Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:32:49.493Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:32:49.494Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:32:50.710Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T20:32:50.711Z [pos-app] error: Error in addItem: res is not defined (method: addItem)
+2024-08-09T20:33:33.448Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T20:33:33.455Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T20:33:59.079Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T20:33:59.079Z [pos-app] error: Error in addItem: Cannot read properties of undefined (reading 'findIndex') (method: addItem)
+2024-08-09T21:17:34.771Z [pos-app] error: Error in cartRepository->addItem: getActiveCart is not defined (method: cartRepository->addItem)
+2024-08-09T21:21:25.813Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-09T21:21:25.819Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart)
+2024-08-09T21:21:25.820Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: cartRepository->addItem)
+2024-08-09T21:25:24.593Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T21:25:24.597Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-09T21:25:24.598Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-09T21:25:35.209Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T21:25:35.210Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-09T21:25:35.210Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-09T21:52:51.134Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T21:52:51.136Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-09T21:53:03.326Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:33:28
+
+  30 
+  31 async createCart(sessionId) {
+  32     const data = { sessionId };
+→ 33     return prisma.cart.create(
+Unique constraint failed on the constraint: `carts_userId_key` (method: getOrCreateCart->getCart)
+2024-08-09T21:53:03.327Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T08:32:57.314Z [pos-app] error: Error in getOrCreateCart->getCart: 
+Invalid `prisma.cart.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:20:43
+
+  17 }
+  18 async getActiveCart(sessionId,userId = null) {
+  19           // Initialize the cart in the session if it doesn't exist
+→ 20       const  cart = await prisma.cart.findFirst({
+             where: {
+               OR: [
+                 {
+                   sessionId: "SoUyeY1e2iEjy-7xI1Rorlk-Nfhu9wG_",
+                   status: "OPEN"
+                 },
+                 {
+                   userId: null,
+                   status: "OPEN"
+                 }
+               ]
+             }
+           })
+
+Unknown argument `userId`. Available options are marked with ?. (method: getOrCreateCart->getCart)
+2024-08-10T08:32:57.319Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:32:57.320Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:35:12.914Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:35:12.920Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:35:12.920Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:48:57.769Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:48:57.772Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:48:57.773Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:49:11.924Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:49:11.924Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:49:11.925Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:53:48.510Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:53:48.511Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:53:48.511Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:54:58.234Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:54:58.238Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:54:58.238Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:55:08.424Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:55:08.429Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:55:08.429Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:58:27.296Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:58:27.300Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:58:27.300Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T08:58:52.806Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T08:58:52.807Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T08:58:52.808Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:00:27.892Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T09:00:27.892Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T09:00:27.893Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:00:31.936Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T09:00:31.937Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T09:00:31.937Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:00:33.773Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T09:00:33.773Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T09:00:33.773Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:01:19.745Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T09:01:19.749Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T09:01:19.749Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:01:25.150Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T09:01:25.151Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T09:01:25.151Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:01:59.050Z [pos-app] error: Error in getOrCreateCart->getCart: userId is not defined (method: getOrCreateCart->getCart)
+2024-08-10T09:01:59.051Z [pos-app] error: Error in CartService->addItemToCart: res is not defined (method: CartService->addItemToCart)
+2024-08-10T09:01:59.051Z [pos-app] error: Error in cartRepository->addItem: res is not defined (method: cartRepository->addItem)
+2024-08-10T09:03:29.313Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:03:29.317Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:03:29.318Z [pos-app] info: productId undefined added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:03:29.319Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart)
+2024-08-10T09:03:29.319Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: cartRepository->addItem)
+2024-08-10T09:04:36.085Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:04:36.089Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:04:36.090Z [pos-app] info: productId undefined added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:04:36.090Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart)
+2024-08-10T09:04:36.090Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: cartRepository->addItem)
+2024-08-10T09:07:06.302Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:07:06.302Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:07:06.303Z [pos-app] info: productId undefined added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:07:06.303Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart)
+2024-08-10T09:07:06.303Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: cartRepository->addItem)
+2024-08-10T09:08:27.589Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:08:27.593Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:08:27.594Z [pos-app] info: productId undefined added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:08:27.594Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart)
+2024-08-10T09:08:27.595Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:20:11.441Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:20:11.444Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:20:11.445Z [pos-app] info: productId undefined added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:20:11.445Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:20:11.447Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:21:27.381Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:21:27.386Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:21:27.386Z [pos-app] info: productId undefined added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:21:27.387Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:21:27.391Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:26:13.811Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:26:13.816Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:26:14.262Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:26:14.262Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:26:14.268Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:26:41.272Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:26:41.274Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:26:41.714Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:26:41.714Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:26:41.717Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:27:03.683Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:27:03.684Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:27:04.122Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:27:04.122Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:27:04.125Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:30:13.993Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:30:13.998Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:30:15.150Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:30:15.150Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:30:15.155Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:31:04.329Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:31:04.336Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:31:04.772Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:31:04.773Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:31:04.776Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:31:11.373Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:31:11.375Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:31:11.812Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:31:11.812Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:31:11.816Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:32:05.699Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:32:05.706Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:32:06.143Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:32:06.144Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:32:06.147Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:32:09.774Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:32:09.776Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:32:10.215Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:32:10.215Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:32:10.219Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:32:36.369Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:32:36.519Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T09:32:36.572Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cart.update()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:44:28
+
+  41 
+  42 async updateCartItem(cartId, productId,quantity) {
+  43     const existingItem = this.existingItem(cartId, productId);
+→ 44     return prisma.cart.update({
+           where: {
+             id: undefined
+           },
+           data: {
+             quantity: NaN,
+             ~~~~~~~~
+         ?   sessionId?: String | NullableStringFieldUpdateOperationsInput | Null,
+         ?   status?: String | StringFieldUpdateOperationsInput,
+         ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+         ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+         ?   CartItem?: CartItemUpdateManyWithoutCartNestedInput
+           }
+         })
+
+Unknown argument `quantity`. Available options are marked with ?. (method: CartService->addItemToCart)
+2024-08-10T09:32:36.572Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:33:05.551Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:33:05.702Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T09:33:05.714Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cart.update()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:44:28
+
+  41 
+  42 async updateCartItem(cartId, productId,quantity) {
+  43     const existingItem = this.existingItem(cartId, productId);
+→ 44     return prisma.cart.update({
+           where: {
+             id: undefined
+           },
+           data: {
+             quantity: NaN,
+             ~~~~~~~~
+         ?   sessionId?: String | NullableStringFieldUpdateOperationsInput | Null,
+         ?   status?: String | StringFieldUpdateOperationsInput,
+         ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+         ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+         ?   CartItem?: CartItemUpdateManyWithoutCartNestedInput
+           }
+         })
+
+Unknown argument `quantity`. Available options are marked with ?. (method: CartService->addItemToCart)
+2024-08-10T09:33:05.715Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:33:41.651Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:33:41.802Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:33:42.238Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:33:42.238Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:33:42.243Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:33:54.117Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:33:54.275Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T09:33:54.297Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cart.update()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:44:28
+
+  41 
+  42 async updateCartItem(cartId, productId,quantity) {
+  43     const existingItem = this.existingItem(cartId, productId);
+→ 44     return prisma.cart.update({
+           where: {
+             id: undefined
+           },
+           data: {
+             quantity: NaN,
+             ~~~~~~~~
+         ?   sessionId?: String | NullableStringFieldUpdateOperationsInput | Null,
+         ?   status?: String | StringFieldUpdateOperationsInput,
+         ?   createdAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+         ?   updatedAt?: DateTime | DateTimeFieldUpdateOperationsInput,
+         ?   CartItem?: CartItemUpdateManyWithoutCartNestedInput
+           }
+         })
+
+Unknown argument `quantity`. Available options are marked with ?. (method: CartService->addItemToCart)
+2024-08-10T09:33:54.298Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:35:36.585Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:35:36.740Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T09:35:36.741Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:35:44.689Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:35:44.836Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T09:35:44.836Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:37:16.940Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:37:16.951Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:37:17.387Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:37:17.387Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:37:17.391Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:37:27.237Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:37:27.239Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:37:27.673Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:37:27.674Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:37:27.676Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:37:40.348Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:37:40.350Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:37:40.785Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:37:40.785Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:37:40.788Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:38:52.915Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:38:52.920Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:38:53.356Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:38:53.357Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:38:53.362Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:39:01.321Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:39:01.323Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:39:01.766Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:39:01.766Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:39:01.768Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:39:35.005Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:39:35.007Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:39:35.445Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:39:35.445Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:39:35.450Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:42:32.968Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:42:32.977Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:42:33.415Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:42:33.417Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:42:33.424Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:42:55.171Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:42:55.173Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:42:55.609Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:42:55.610Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:42:55.614Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:43:47.285Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:43:47.291Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:43:47.727Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:43:47.728Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:43:47.732Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:44:02.222Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:44:02.225Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:44:02.662Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:44:02.663Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:44:02.667Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:44:09.956Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:44:09.958Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:44:10.398Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:44:10.399Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:44:10.404Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:46:46.957Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:46:46.959Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:46:47.396Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:46:47.397Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:46:47.399Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:46:57.116Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:46:57.119Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:46:57.557Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:46:57.557Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:46:57.560Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:47:38.741Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:47:38.745Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:47:39.182Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:47:39.182Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:47:39.184Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:50:34.188Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:50:34.195Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:50:34.630Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:50:34.631Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:50:34.636Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:52:09.658Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:52:09.706Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:52:10.142Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T09:52:10.143Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T09:52:10.147Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T09:54:28.340Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T09:54:28.510Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T09:54:28.512Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:55:58.993Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T09:55:58.996Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T09:55:59.448Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:01:19.600Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:01:19.604Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:01:19.604Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:56:31.120Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:56:31.150Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:56:31.660Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:56:41.075Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:56:41.076Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:56:41.083Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:09.395Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:09.399Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:57:09.827Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:19.667Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:19.667Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:57:19.671Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:25.595Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:25.595Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:57:25.598Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:28.424Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:28.425Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:57:28.428Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:29.983Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:29.984Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:29.985Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:57:31.590Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:31.590Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:57:31.592Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:33.940Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:57:33.941Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:57:33.941Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:58:00.022Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:58:00.027Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:58:00.445Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:58:05.356Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:58:05.357Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:58:05.360Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T10:58:51.280Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T10:58:51.286Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T10:58:51.748Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T11:00:14.598Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T11:00:14.602Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T11:00:15.058Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T11:00:29.241Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T11:00:29.245Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T11:00:29.650Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T11:02:09.000Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T11:02:09.001Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T11:02:09.005Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:06:52.828Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:06:52.840Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:06:53.357Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:07:02.829Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:07:02.830Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:07:02.831Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:08:20.126Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:08:20.185Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:08:39.356Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:08:39.357Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:08:39.357Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:11:38.299Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:11:38.324Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:11:38.723Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:12:44.046Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:12:44.050Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:13:03.521Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:13:03.525Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:13:03.525Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:14:37.185Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:14:37.192Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:14:37.619Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:19:12.572Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:19:12.597Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:19:12.598Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:20:10.343Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:24:08.024Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:24:08.039Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:24:08.039Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:27:39.590Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:28:24.802Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:28:24.815Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:28:24.816Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:28:46.587Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:28:46.588Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:29:16.470Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:29:16.470Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:29:22.623Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:29:22.624Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:29:28.465Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:29:28.465Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:29:48.066Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:29:48.066Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:29:48.076Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:30:41.698Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:30:41.703Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:30:41.723Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:31:37.712Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:31:37.717Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:31:37.728Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:33:43.666Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:34:55.724Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:34:55.740Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:34:55.740Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:43:00.811Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:43:00.842Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:44:46.005Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:44:46.009Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:46:33.574Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:46:33.577Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:47:01.482Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:47:01.484Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:49:13.489Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:49:13.493Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:52:04.400Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:52:04.403Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:52:37.097Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:52:37.813Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T20:52:37.814Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T20:53:06.045Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:53:06.046Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:56:31.903Z [pos-app] error: Error in getOrCreateCart->getCart: Cannot read properties of null (reading 'id') (method: getOrCreateCart->getCart)
+2024-08-10T20:56:31.914Z [pos-app] error: Error in CartController->getCart: res is not defined (method: CartController->getCart)
+2024-08-10T20:59:37.824Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T20:59:37.837Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:02:38.860Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:02:39.664Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T21:02:39.665Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:04:14.751Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T21:04:14.755Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:04:15.214Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:04:37.899Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T21:04:37.899Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:04:37.910Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:06:21.661Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:06:21.818Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of null (reading 'productId') (method: CartService->addItemToCart)
+2024-08-10T21:06:21.819Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:09:55.357Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:09:55.514Z [pos-app] error: Error in CartService->addItemToCart: Object.size is not a function (method: CartService->addItemToCart)
+2024-08-10T21:09:55.515Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:12:56.137Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:12:56.301Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:12:56.302Z [pos-app] error: Error in CartService->addItemToCart: Cannot access 'item' before initialization (method: CartService->addItemToCart)
+2024-08-10T21:12:56.302Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:16:32.632Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:16:32.790Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:16:33.249Z [pos-app] error: Error in CartService->addItemToCart: Object.size is not a function (method: CartService->addItemToCart)
+2024-08-10T21:16:33.250Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:19:17.369Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:19:17.526Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:19:17.965Z [pos-app] error: Error in CartService->addItemToCart: Object.size is not a function (method: CartService->addItemToCart)
+2024-08-10T21:19:17.966Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-10T21:25:45.592Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:25:45.772Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:25:46.212Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:25:46.213Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:25:46.215Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:26:30.163Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:26:30.314Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:26:31.179Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:26:31.179Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:26:31.181Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:27:09.345Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:27:09.495Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:27:10.227Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:27:10.227Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:27:10.229Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:27:18.512Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:27:18.665Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:27:19.395Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:27:19.396Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:27:19.398Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:27:26.504Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:27:26.655Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:27:27.385Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:27:27.385Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:27:27.387Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:28:55.191Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:28:55.366Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:28:55.801Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T21:28:55.802Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:28:55.806Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:28:59.683Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:28:59.835Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:29:00.574Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:29:00.575Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:29:00.579Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:29:02.772Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:29:02.924Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:29:03.654Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:29:03.655Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:29:03.657Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:29:05.447Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T21:29:05.599Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:29:06.359Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T21:29:06.360Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T21:29:06.363Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T21:30:52.384Z [pos-app] error: Error in removeItem: Cannot read properties of undefined (reading 'id') (method: removeItem)
+2024-08-10T21:31:23.696Z [pos-app] error: Error in removeItem: Cannot read properties of undefined (reading 'id') (method: removeItem)
+2024-08-10T21:36:31.381Z [pos-app] error: Error in removeItem: productId is not defined (method: removeItem)
+2024-08-10T21:46:06.179Z [pos-app] error: Error in removeItem: 
+Invalid `prisma.cartItem.delete()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:68:44
+
+  65 } 
+  66 
+  67 async removeItemFromCart(cartItemId) {
+→ 68     return await prisma.cartItem.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. (method: removeItem)
+2024-08-10T21:49:58.505Z [pos-app] error: Error in removeItem: productId is not defined (method: removeItem)
+2024-08-10T21:53:21.543Z [pos-app] error: Error in removeItem: 
+Invalid `prisma.cartItem.delete()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:68:44
+
+  65 } 
+  66 
+  67 async removeItemFromCart(cartItemId) {
+→ 68     return await prisma.cartItem.delete(
+An operation failed because it depends on one or more records that were required but not found. Record to delete does not exist. (method: removeItem)
+2024-08-10T22:02:42.263Z [pos-app] error: Error in CartService->removeItemFromCart: Cart item not found (method: CartService->removeItemFromCart)
+2024-08-10T22:02:42.269Z [pos-app] error: Error in removeItem: res is not defined (method: removeItem)
+2024-08-10T22:04:30.643Z [pos-app] error: Error in CartService->removeItemFromCart: Cart item not found (method: CartService->removeItemFromCart)
+2024-08-10T22:04:30.647Z [pos-app] error: Error in removeItem: res is not defined (method: removeItem)
+2024-08-10T22:04:41.237Z [pos-app] error: Error in CartService->removeItemFromCart: Cart item not found (method: CartService->removeItemFromCart)
+2024-08-10T22:04:41.238Z [pos-app] error: Error in removeItem: res is not defined (method: removeItem)
+2024-08-10T22:04:46.594Z [pos-app] error: Error in CartService->removeItemFromCart: Cart item not found (method: CartService->removeItemFromCart)
+2024-08-10T22:04:46.594Z [pos-app] error: Error in removeItem: res is not defined (method: removeItem)
+2024-08-10T22:05:44.786Z [pos-app] error: Error in CartService->removeItemFromCart: Cart item not found (method: CartService->removeItemFromCart)
+2024-08-10T22:05:44.787Z [pos-app] error: Error in removeItem: res is not defined (method: removeItem)
+2024-08-10T22:06:47.071Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T22:06:47.229Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T22:06:47.689Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-10T22:06:47.690Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T22:06:47.693Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T22:07:31.368Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-10T22:07:31.521Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T22:07:32.397Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-10T22:07:32.397Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartService->addItemToCart->last)
+2024-08-10T22:07:32.401Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-10T22:11:03.355Z [pos-app] info: productId 66b7e477345b4e702c43cd15 removed from cart (method: removeItem)
+2024-08-10T22:11:23.901Z [pos-app] info: productId 66b7d95578d67030d46256ba removed from cart (method: removeItem)
+2024-08-11T11:33:50.485Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-11T11:33:50.518Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-11T11:34:06.876Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-11T11:34:07.913Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-11T11:34:07.913Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-11T11:34:27.059Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-11T11:34:28.419Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-11T11:34:28.419Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-11T11:34:30.830Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-11T11:34:31.808Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-11T11:34:31.809Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T11:52:45.870Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T11:52:46.493Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T11:52:46.494Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T11:59:10.117Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T11:59:10.721Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T11:59:10.722Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T11:59:39.426Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T11:59:40.434Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T11:59:40.434Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T12:03:57.420Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'id') (method: checkoutCart)
+2024-08-12T13:12:15.903Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-12T13:14:56.820Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-12T13:15:52.126Z [pos-app] error: Error in checkoutCart: cartService.getActiveCart is not a function (method: checkoutCart)
+2024-08-12T13:16:56.635Z [pos-app] error: Error in checkoutCart: cartService.getActiveCart is not a function (method: checkoutCart)
+2024-08-12T13:17:26.780Z [pos-app] error: Error in checkoutCart: cartService.getActiveCart is not a function (method: checkoutCart)
+2024-08-12T13:19:25.992Z [pos-app] error: Error in getOrCreateCart->getCart: User session not created (method: getOrCreateCart->getCart)
+2024-08-12T13:19:26.000Z [pos-app] error: Error in checkoutCart: res is not defined (method: checkoutCart)
+2024-08-12T13:20:27.281Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:20:27.288Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'length') (method: checkoutCart)
+2024-08-12T13:21:06.682Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:21:06.691Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'length') (method: checkoutCart)
+2024-08-12T13:25:44.522Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:25:44.532Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'length') (method: checkoutCart)
+2024-08-12T13:29:12.341Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:29:12.360Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'length') (method: checkoutCart)
+2024-08-12T13:31:46.457Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:31:46.466Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'length') (method: checkoutCart)
+2024-08-12T13:32:12.518Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:32:13.144Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T13:32:13.144Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:32:16.034Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:32:17.102Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:32:17.102Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:32:22.416Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:32:23.008Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'currencyType') (method: checkoutCart)
+2024-08-12T13:36:06.437Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:38:50.529Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:39:16.257Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:39:16.846Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T13:39:16.846Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:39:19.708Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:39:20.586Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:39:20.586Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:39:25.677Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:39:26.562Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:39:26.562Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:39:31.641Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:39:32.230Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'currencyType') (method: checkoutCart)
+2024-08-12T13:51:20.260Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:51:33.268Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:51:33.853Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T13:51:33.854Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:51:36.503Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:51:37.382Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:51:37.382Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:51:39.958Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:51:40.837Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:51:40.837Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:51:49.287Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:51:50.320Z [pos-app] error: Error in checkoutCart: item is not defined (method: checkoutCart)
+2024-08-12T13:52:33.756Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:52:45.879Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:52:46.464Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T13:52:46.464Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:52:48.297Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:52:49.173Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:52:49.173Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:52:53.802Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:52:54.684Z [pos-app] error: Error in checkoutCart: currencyType is not defined (method: checkoutCart)
+2024-08-12T13:53:54.450Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:03.463Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:03.469Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:09.393Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:09.975Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T13:54:09.976Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:54:16.318Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:17.202Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:54:17.202Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:54:19.292Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:20.172Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:54:20.172Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:54:24.084Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:54:24.979Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'price') (method: checkoutCart)
+2024-08-12T13:59:38.037Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:59:47.329Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:59:47.913Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T13:59:47.914Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:59:50.251Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:59:51.131Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T13:59:51.132Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T13:59:58.065Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T13:59:58.987Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'price') (method: checkoutCart)
+2024-08-12T14:02:55.564Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:00.845Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:01.430Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:03:01.432Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:03:02.889Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:03.774Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:03:03.774Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:03:05.123Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:06.018Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:03:06.018Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:03:07.586Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:08.463Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:03:08.463Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:03:14.400Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:15.290Z [pos-app] error: Error in checkoutCart: totalPrice is not defined (method: checkoutCart)
+2024-08-12T14:03:55.355Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:03:55.951Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:03:55.951Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:04:00.833Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:04:01.713Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:04:01.714Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:04:03.600Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:04:04.520Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:04:04.521Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:04:09.695Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:04:10.590Z [pos-app] error: Error in checkoutCart: paymentMethod is not defined (method: checkoutCart)
+2024-08-12T14:05:12.277Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:05:23.840Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:05:24.424Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:05:24.424Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:05:26.152Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:05:27.028Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:05:27.028Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:05:28.715Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:05:29.592Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:05:29.592Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:05:33.101Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:05:33.990Z [pos-app] error: Error in checkoutCart: paymentMethod is not defined (method: checkoutCart)
+2024-08-12T14:06:18.222Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:06:18.808Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:06:18.808Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:06:20.711Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:06:21.592Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:06:21.593Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:06:23.049Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:06:23.928Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:06:23.928Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:06:28.805Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:06:29.700Z [pos-app] error: Error in checkoutCart: userId is not defined (method: checkoutCart)
+2024-08-12T14:07:50.309Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:07:50.893Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:07:50.893Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:07:52.573Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:07:53.515Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:07:53.516Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:07:55.046Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:07:55.922Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:07:55.923Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:08:01.330Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:08:02.268Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId, status) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                status: "PENDING",
+            +   total: Float
+              }
+            })
+
+Argument `total` is missing. (method: checkoutCart)
+2024-08-12T14:16:10.690Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:16:11.276Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:16:11.277Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:16:14.324Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:16:15.207Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:16:15.209Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:16:23.024Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-12T14:16:28.618Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-12T14:17:07.477Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:17:08.379Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId, status) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                status: "PENDING",
+            +   total: Float
+              }
+            })
+
+Argument `total` is missing. (method: checkoutCart)
+2024-08-12T14:28:01.669Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:28:02.261Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:28:02.261Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:28:04.872Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:28:05.752Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:28:05.753Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:28:08.346Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:28:09.231Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:28:09.232Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:28:46.359Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:28:47.265Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total, paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "PENDING",
+                paymentStatus: undefined,
+            +   total: Float
+              }
+            })
+
+Argument `total` is missing. (method: checkoutCart)
+2024-08-12T14:35:15.391Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:35:15.981Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:35:15.982Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:35:18.883Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:35:19.778Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:35:19.778Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:35:22.944Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:35:23.823Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:35:23.823Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:35:28.982Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:35:29.879Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total,paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "cash",
+                total: 15000,
+                paymentStatus: "succeeded",
+            +   User: {
+            +     create: UserCreateWithoutOrderInput | UserUncheckedCreateWithoutOrderInput,
+            +     connectOrCreate: UserCreateOrConnectWithoutOrderInput,
+            +     connect: UserWhereUniqueInput
+            +   }
+              }
+            })
+
+Argument `User` is missing. (method: checkoutCart)
+2024-08-12T14:36:06.099Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:36:12.847Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:36:13.430Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:36:13.430Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:36:15.075Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:36:15.978Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:36:15.978Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:36:17.361Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:36:18.244Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:36:18.245Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:36:23.419Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:36:24.312Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total,paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "cash",
+                total: 15000,
+                paymentStatus: "succeeded",
+            +   User: {
+            +     create: UserCreateWithoutOrderInput | UserUncheckedCreateWithoutOrderInput,
+            +     connectOrCreate: UserCreateOrConnectWithoutOrderInput,
+            +     connect: UserWhereUniqueInput
+            +   }
+              }
+            })
+
+Argument `User` is missing. (method: checkoutCart)
+2024-08-12T14:38:45.206Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:38:45.796Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:38:45.796Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:38:48.440Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:38:49.320Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:38:49.320Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:38:51.948Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:38:52.836Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:38:52.836Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:39:01.250Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:39:02.174Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total,paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "cash",
+                total: 15000,
+                paymentStatus: "succeeded",
+            +   User: {
+            +     create: UserCreateWithoutOrderInput | UserUncheckedCreateWithoutOrderInput,
+            +     connectOrCreate: UserCreateOrConnectWithoutOrderInput,
+            +     connect: UserWhereUniqueInput
+            +   }
+              }
+            })
+
+Argument `User` is missing. (method: checkoutCart)
+2024-08-12T14:40:01.293Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:40:10.879Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:40:11.461Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:40:11.461Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:40:13.614Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:40:14.496Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:40:14.496Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:40:21.056Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:40:21.947Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total,paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "cash",
+                total: 10000,
+                paymentStatus: "succeeded",
+            +   User: {
+            +     create: UserCreateWithoutOrderInput | UserUncheckedCreateWithoutOrderInput,
+            +     connectOrCreate: UserCreateOrConnectWithoutOrderInput,
+            +     connect: UserWhereUniqueInput
+            +   }
+              }
+            })
+
+Argument `User` is missing. (method: checkoutCart)
+2024-08-12T14:42:11.143Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:42:11.729Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:42:11.730Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:42:15.087Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:42:15.970Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:42:15.970Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:42:18.994Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:42:19.872Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:42:19.873Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:42:25.767Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:42:26.671Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total,paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "cash",
+                total: 15000,
+                paymentStatus: "succeeded",
+            +   User: {
+            +     create: UserCreateWithoutOrderInput | UserUncheckedCreateWithoutOrderInput,
+            +     connectOrCreate: UserCreateOrConnectWithoutOrderInput,
+            +     connect: UserWhereUniqueInput
+            +   }
+              }
+            })
+
+Argument `User` is missing. (method: checkoutCart)
+2024-08-12T14:43:39.232Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:43:39.825Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:43:39.826Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:43:41.666Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:43:42.546Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:43:42.547Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:43:44.274Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:43:45.159Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:43:45.159Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:43:51.984Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:43:52.904Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.order.create()` invocation in
+D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
+
+  2 
+  3 class OrderRepository {
+  4     async createOrder(userId,paymentMethod,total,paymentStatus) {
+→ 5         return prisma.order.create({
+              data: {
+                userId: undefined,
+                paymentMethod: "cash",
+                total: 15000,
+                paymentStatus: "succeeded",
+            +   User: {
+            +     create: UserCreateWithoutOrderInput | UserUncheckedCreateWithoutOrderInput,
+            +     connectOrCreate: UserCreateOrConnectWithoutOrderInput,
+            +     connect: UserWhereUniqueInput
+            +   }
+              }
+            })
+
+Argument `User` is missing. (method: checkoutCart)
+2024-08-12T14:45:25.006Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:45:25.592Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->not existingProductIndex)
+2024-08-12T14:45:25.592Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:45:28.160Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:45:29.046Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:45:29.047Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:45:31.106Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:45:31.984Z [pos-app] info: productId [object Object] added to cart (method: CartService->addItemToCart->existingProductIndex)
+2024-08-12T14:45:31.985Z [pos-app] info: productId 66a20ebbbbedb518682e1a63 added to cart (method: CartController->addItem)
+2024-08-12T14:45:42.250Z [pos-app] info: cart created id :undefined  (method: getCart)
+2024-08-12T14:45:44.910Z [pos-app] info: orderId 66ba2017c74bd8de8deb46b1 COMPLETED (method: checkoutCart)

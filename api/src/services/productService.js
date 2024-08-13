@@ -1,6 +1,6 @@
 const prisma = require('../config/prisma');
 
-const createProduct = async (companyId, name, price, categoryId, description, images,currencyType,stock) => {
+const createProduct = async (vendorId, name, price, categoryId, description, images,currencyType,stock) => {
     const product = await prisma.product.create({
         data: {
             name,
@@ -8,7 +8,7 @@ const createProduct = async (companyId, name, price, categoryId, description, im
             categoryId,
             description,
             images,
-            companyId,
+            vendorId,
             stock,
             currencyType,
             deletedAt: null
@@ -17,10 +17,10 @@ const createProduct = async (companyId, name, price, categoryId, description, im
     return product;
 };
 
-const getProductsByCompany = async (companyId) => {
+const getProductsByVendor = async (vendorId) => {
     const products = await prisma.product.findMany({
         where: {
-            companyId,
+            vendorId,
             deletedAt: null
         },
         include: {
@@ -31,10 +31,10 @@ const getProductsByCompany = async (companyId) => {
 };
 
 
-const getProductById = async (companyId, productId) => {
+const getProductById = async (vendorId, productId) => {
     const product = await prisma.product.findFirst({
         where: {
-            companyId,
+            vendorId,
             productId,
             deletedAt: null
         },
@@ -45,21 +45,21 @@ const getProductById = async (companyId, productId) => {
     return product;
 };
 
-const deleteProduct = async (companyId, productId) => {
+const deleteProduct = async (vendorId, productId) => {
     // Ensure productId is provided
     if (!productId) {
         throw new Error('productId is required');
     }
 
     // Ensure productId is provided
-    if (!companyId) {
-        throw new Error('companyId is required');
+    if (!vendorId) {
+        throw new Error('vendorId is required');
     }
 
     const product = await prisma.product.findFirst({
         where: {
             id: productId,
-            companyId,
+            vendorId,
             deletedAt: null
         }
     });
@@ -74,11 +74,11 @@ const deleteProduct = async (companyId, productId) => {
     return deletedProduct;
 };
 
-const updateProduct = async (companyId, productId, updateData) => {
+const updateProduct = async (vendorId, productId, updateData) => {
     const product = await prisma.product.findFirst({
         where: {
             id: productId,
-            companyId,
+            vendorId,
             deletedAt: null
         }
     });
@@ -95,11 +95,12 @@ const updateProduct = async (companyId, productId, updateData) => {
     return updatedProduct;
 };
 
-const updateStock = async (companyId, productId, stock) => {
+const updateStock = async (vendorId, productId, stock) => {
+    await this.validateUpdateStockInput(vendorId, productId, stock);
     const product = await prisma.product.findFirst({
         where: {
             id: productId,
-            companyId,
+            vendorId,
             deletedAt: null
         }
     });
@@ -117,11 +118,25 @@ const updateStock = async (companyId, productId, stock) => {
     }
 };
 
+const validateUpdateStockInput = async (vendorId, productId, stock) => {
+    // Input validation
+    if (!vendorId || typeof vendorId !== 'string') {
+      throw new Error('Invalid vendorId');
+    }
+    if (!productId || typeof productId !== 'string') {
+      throw new Error('Invalid productId');
+    }
+    if (typeof stock !== 'number' || stock < 0) {
+      throw new Error('Invalid stock value');
+    }
+  };
+
 module.exports = {
     createProduct,
-    getProductsByCompany,
+    getProductsByVendor,
     getProductById,
     deleteProduct,
     updateProduct,
     updateStock,
+    validateUpdateStockInput,
 };

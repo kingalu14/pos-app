@@ -1,11 +1,13 @@
 const prisma = require('../config/prisma');
 
 class OrderRepository {
-    async createOrder(userId, status) {
+    async createOrder(userId,paymentMethod,total,paymentStatus) {
         return prisma.order.create({
             data: {
                 userId,
-                status,
+                paymentMethod,
+                total,
+                paymentStatus,
             },
         });
     }

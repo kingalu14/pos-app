@@ -1,13 +1,14 @@
 const orderRepository = require('../repositories/orderRepository');
 const cartRepository = require('../repositories/cartRepository');
+const productRepository = require('../repositories/productRepository');
 
 class OrderService {
-    async createOrderFromCart(userId, cartId) {
+    async createOrderFromCart(userId,cartId,paymentMethod,total,paymentStatus) {
         // Create a new order
-        const order = await orderRepository.createOrder(userId, 'PENDING');
+        const order = await orderRepository.createOrder(userId,paymentMethod,total,paymentStatus);
 
         // Get items from the cart
-        const cart = await cartRepository.findCartByUserId(userId);
+        const cart = await cartRepository.getCartById(cartId);
         if (!cart || cart.id !== cartId) {
             throw new Error('Cart not found');
         }

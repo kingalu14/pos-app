@@ -1,11 +1,11 @@
 const prisma = require('../config/prisma');
 
-const createCategory = async (companyId,name,description,parentId) => {
+const createCategory = async (vendorId,name,description,parentId) => {
     const category = await prisma.category.create({
         data: {
             name,
             description,
-            companyId,
+            vendorId,
             parentId,
             deletedAt: null
         },
@@ -14,10 +14,10 @@ const createCategory = async (companyId,name,description,parentId) => {
 };
 
 //a function to get a single category for specific userId  
-const getCategoriesByCompany = async (companyId) => {
+const getCategoriesByVendor = async (vendorId) => {
     const categories = await prisma.category.findMany({
         where: {
-            companyId,
+            vendorId,
             deletedAt: null
         },
         include: {
@@ -28,10 +28,10 @@ const getCategoriesByCompany = async (companyId) => {
     return categories;
 };
 
-const getCategoryById = async (companyId, categoryId) => {
+const getCategoryById = async (vendorId, categoryId) => {
     const categories = await prisma.category.findFirst({
         where: {
-            companyId,
+            vendorId,
             categoryId,
             deletedAt: null
         },
@@ -43,11 +43,11 @@ const getCategoryById = async (companyId, categoryId) => {
     return categories;
 };
 
-const deleteCategory = async (companyId, categoryId) => {
+const deleteCategory = async (vendorId, categoryId) => {
     const category = await prisma.category.findFirst({
         where: {
             id: categoryId,
-            companyId,
+            vendorId,
             deletedAt: null
         }
     });
@@ -73,18 +73,18 @@ const updateCategory = async (userId, categoryId, updateData) => {
     if(!userId) {
         throw new Error('userId is required');
     }
-   const userCompany = await prisma.userCompany.findFirst({
+   const userVendor = await prisma.userVendor.findFirst({
        where: { userId }
    });
   
-   if (!userCompany) {
-       return res.status(403).json({ message: 'You do not belong to any company' });
+   if (!userVendor) {
+       return res.status(403).json({ message: 'You do not belong to any Vendor' });
    }
   
    const category = await prisma.category.findFirst({
        where: {
            id: categoryId,
-           companyId: userCompany.companyId,
+           vendorId: userVendor.vendorId,
            deletedAt: null
        }
    });
@@ -104,7 +104,7 @@ const updateCategory = async (userId, categoryId, updateData) => {
 
 module.exports = {
     createCategory,
-    getCategoriesByCompany,
+    getCategoriesByVendor,
     getCategoryById,
     deleteCategory,
     updateCategory,

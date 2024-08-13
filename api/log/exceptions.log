@@ -1,0 +1,359 @@
+2024-08-08T23:53:07.616Z [pos-app] error: uncaughtException: dotenv.config is not a function
+TypeError: dotenv.config is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:34:8)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49 (method: undefined)
+2024-08-08T23:56:55.395Z [pos-app] error: uncaughtException: dotenv.config is not a function
+TypeError: dotenv.config is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:34:8)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49 (method: undefined)
+2024-08-10T20:19:12.588Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
+2024-08-10T20:24:08.035Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
+2024-08-10T20:28:24.810Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
+2024-08-10T20:30:41.734Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
+2024-08-10T20:31:37.734Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:20:13) (method: undefined)
+2024-08-10T20:34:55.733Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:20:13) (method: undefined)
+2024-08-10T20:52:37.102Z [pos-app] error: uncaughtException: res is not defined
+ReferenceError: res is not defined
+    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:22:13) (method: undefined)
+2024-08-13T13:49:47.368Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T13:50:31.394Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T13:53:30.500Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T13:58:08.794Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T13:58:42.720Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:04:05.126Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:12:27.815Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:14:05.849Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:14:38.827Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:32:27.920Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:37:57.398Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:41:25.470Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T14:52:57.293Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T15:10:56.638Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T15:11:15.919Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T15:13:23.780Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T15:13:52.183Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T15:17:16.836Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T15:17:40.270Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+2024-08-13T20:06:51.365Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+Error: Cannot find module './routes/vendorRoutes'
+Require stack:
+- D:\projects\pos-app\api\src\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)

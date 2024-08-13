@@ -5,31 +5,31 @@ const createCategory = async (req, res) => {
     try {
         const { name, description, parentId } = req.body;
         const { userId } = req.user;
-        const userCompany = await prisma.userCompany.findFirst({
+        const userVendor = await prisma.userVendor.findFirst({
             where: { userId }
         });
 
-        if (!userCompany) {
-            return res.status(403).json({ message: 'You do not belong to any company' });
+        if (!userVendor) {
+            return res.status(403).json({ message: 'You do not belong to any Vendor' });
         }
-        const category = await categoryService.createCategory(userCompany.companyId, name, description, parentId);
+        const category = await categoryService.createCategory(userVendor.vendorId, name, description, parentId);
         res.status(201).json({ message: 'Category created successfully', category });
     } catch (error) {
         res.status(400).json({ message: error.message });
     }
 };
 
-const getCategoriesByCompany = async (req, res) => {
+const getCategoriesByVendor = async (req, res) => {
     try {
         const { userId } = req.user;
-        const userCompany = await prisma.userCompany.findFirst({
+        const userVendor = await prisma.userVendor.findFirst({
             where: { userId }
         });
 
-        if (!userCompany) {
-            return res.status(403).json({ message: 'You do not belong to any company' });
+        if (!userVendor) {
+            return res.status(403).json({ message: 'You do not belong to any Vendor' });
         }
-        const categories = await categoryService.getCategoriesByCompany(userCompany.companyId);
+        const categories = await categoryService.getCategoriesByVendor(userVendor.vendorId);
         console.log(categories);
         res.status(200).json(categories);
     } catch (error) {
@@ -41,14 +41,14 @@ const getCategoryById = async (req, res) => {
     try {
         const { userId } = req.user;
         const { categoryId } = req.params;
-        const userCompany = await prisma.userCompany.findFirst({
+        const userVendor = await prisma.userVendor.findFirst({
             where: { userId }
         });
 
-        if (!userCompany) {
-            return res.status(403).json({ message: 'You do not belong to any company' });
+        if (!userVendor) {
+            return res.status(403).json({ message: 'You do not belong to any Vendor' });
         }
-        const category = await categoryService.getCategoryById(userCompany.companyId,categoryId);
+        const category = await categoryService.getCategoryById(userVendor.vendorId,categoryId);
         res.status(200).json(category);
     } catch (error) {
         res.status(400).json({ message: error.message });
@@ -59,15 +59,15 @@ const deleteCategory = async (req, res) => {
     try {
         const { userId } = req.user;
         const { categoryId } = req.params;
-        const userCompany = await prisma.userCompany.findFirst({
+        const userVendor = await prisma.userVendor.findFirst({
             where: { userId }
         });
 
-        if (!userCompany) {
-            return res.status(403).json({ message: 'You do not belong to any company' });
+        if (!userVendor) {
+            return res.status(403).json({ message: 'You do not belong to any Vendor' });
         }
 
-        const category = await categoryService.deleteCategory(userCompany.companyId, categoryId);
+        const category = await categoryService.deleteCategory(userVendor.vendorId, categoryId);
         res.status(200).json({ message: 'Category deleted successfully', category });
     } catch (error) {
         res.status(400).json({ message: error.message });
@@ -82,12 +82,12 @@ const updateCategory = async (req, res) => {
         const updateData = req.body;
         console.log('categoryId:', categoryId);
    
-        const userCompany = await prisma.userCompany.findFirst({
+        const userVendor = await prisma.userVendor.findFirst({
             where: { userId }
         });
 
-        if (!userCompany) {
-            return res.status(403).json({ message: 'You do not belong to any company' });
+        if (!userVendor) {
+            return res.status(403).json({ message: 'You do not belong to any Vendor' });
         }
         const category = await categoryService.updateCategory(userId, categoryId, updateData);
         res.status(200).json({ message: 'Category updated successfully', category });
@@ -98,7 +98,7 @@ const updateCategory = async (req, res) => {
 
 module.exports = {
     createCategory,
-    getCategoriesByCompany,
+    getCategoriesByVendor,
     getCategoryById,
     deleteCategory,  
     updateCategory,

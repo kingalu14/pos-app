@@ -1,13 +1,13 @@
 const prisma = require('../config/prisma');
-const checkCompanyActive = async (req, res, next) => {
+const checkVendorActive = async (req, res, next) => {
     try {
-        const companyId = req.body.companyId || req.params.companyId;
-        const company = await prisma.company.findUnique({
-            where: { id: companyId },
+        const vendorId = req.body.vendorId || req.params.vendorId;
+        const vendor = await prisma.vendor.findUnique({
+            where: { id: vendorId },
         });
 
-        if (!company || company.deletedAt) {
-            return res.status(403).json({ message: 'Company is deleted or does not exist' });
+        if (!vendor || vendor.deletedAt) {
+            return res.status(403).json({ message: 'vendor is deleted or does not exist' });
         }
 
         next();
@@ -16,4 +16,4 @@ const checkCompanyActive = async (req, res, next) => {
     }
 };
 
-module.exports = checkCompanyActive;
+module.exports = checkVendorActive;

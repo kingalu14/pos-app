@@ -4,7 +4,7 @@ const {
     createProduct,
     updateProduct,
     deleteProduct,
-    getProductsByCompany,
+    getProductsByVendor,
     getProductById,
     updateStock
 } = require('../controllers/productController');
@@ -14,7 +14,7 @@ const checkPermission = require('../middlewares/authorization');
 router.post('/add-product', authenticateToken, checkPermission('canAddProduct'), createProduct);
 router.put('/update-product/:id', authenticateToken, checkPermission('canEditProduct'), updateProduct);
 router.delete('/delete-product/:id', authenticateToken, checkPermission('canDeleteProduct'), deleteProduct);
-router.get('/', authenticateToken, checkPermission('canViewProducts'), getProductsByCompany);
+router.get('/', authenticateToken, checkPermission('canViewProducts'), getProductsByVendor);
 router.get('/product/:id', authenticateToken, checkPermission('canViewProduct'), getProductById);
 router.put('/product/:id/stock', authenticateToken, checkPermission('canUpdateStock'), updateStock);
 

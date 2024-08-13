@@ -5,6 +5,14 @@ const CART_STATUS = {
     ABANDONED: 'ABANDONED',
 };
 
+const LOGGER_FILE = {
+    INFO: 'info.log',
+    WARNING: 'warning.log',
+    ERROR: 'error.log',
+    EXCEPTION: 'exceptions.log',
+};
+
 module.exports = {
     CART_STATUS,
+    LOGGER_FILE,
 };

@@ -1,18 +1,18 @@
 const prisma = require('../config/prisma');
 
-class InvoicesRepository {
+class VendorRepository {
 
-
-    async createinvoice(data, userId, transaction) {
-        // Create the Vendor        
-        const vendor = await transaction.vendor.create({
+    async createVendorAndUserVendor(data, userId, transaction) {
+        // Create the Vendor      
+          const vendor = await transaction.vendor.create({
             data: {
                 ...data,
                 deletedAt:null,
             }
         });
-        // Associate the user with the created Vendor      
-          await transaction.userVendor.create({
+
+        // Associate the user with the created Vendor   
+           await transaction.userVendor.create({
             data: {
                 userId,
                 vendorId: vendor.id,
@@ -45,6 +45,17 @@ class InvoicesRepository {
         return await prisma.vendor.findMany();
     }
 
+    async update(id, data) {
+        return await prisma.vendor.update({ where: { id }, data });
+    }
+
+    async softDeleteVendor(vendorId, transaction) {
+        return transaction.vendor.update({
+            where: { id: vendorId },
+            data: { deletedAt: new Date() },
+        });
+    }
+
     async findActiveByUserId(userId) {
         const userVendors = await prisma.userVendor.findMany({
             where: { userId },
@@ -57,4 +68,4 @@ class InvoicesRepository {
     }
 }
 
-module.exports = new InvoicesRepository();
+module.exports = new VendorRepository();

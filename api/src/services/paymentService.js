@@ -12,3 +12,6 @@ const paymentService = async (paymentMethod) => {
     }
 
 }
+module.exports = {
+    paymentService,
+};
