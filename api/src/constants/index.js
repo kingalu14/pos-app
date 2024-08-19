@@ -4,6 +4,11 @@ const CART_STATUS = {
     COMPLETED: 'COMPLETED',
     ABANDONED: 'ABANDONED',
 };
+const PAYMENT_STATUS = {
+    SUCCEEDED: 'SUCCEEDED',
+    FAIL: 'FAIL',
+    PENDING: 'PENDING',
+};
 
 const LOGGER_FILE = {
     INFO: 'info.log',
@@ -15,4 +20,5 @@ const LOGGER_FILE = {
 module.exports = {
     CART_STATUS,
     LOGGER_FILE,
+    PAYMENT_STATUS,
 };

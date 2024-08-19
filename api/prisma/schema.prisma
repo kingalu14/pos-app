@@ -12,12 +12,12 @@ model User {
   username    String       @unique
   password    String
   email       String
-  vendorId  String?
-  roleId      String       
+  vendorId    String?
+  roleId      String        
   createdAt   DateTime     @default(now())
   updatedAt   DateTime     @updatedAt
   UserVendor UserVendor[]
-  Role        Role         @relation(fields: [roleId], references: [id])
+  role  Role     @relation(fields: [roleId], references: [id], onDelete: Cascade)
   Order       Order[]
   @@map("users")
 }
@@ -34,8 +34,9 @@ model Vendor {
   Category    Category[]
   CartItem    CartItem[]  // Inverse relation to CartItem
   OrderItem   OrderItem[] // Inverse relation to OrderItem
+  Order   Order[] // Inverse relation to OrderItem
   Subscription Subscription[]
-  @@map("companies")
+  @@map("vendors")
 }
 
 model UserVendor {
@@ -49,7 +50,7 @@ model UserVendor {
   updatedAt   DateTime    @updatedAt // Use Date for date fields
   User        User     @relation(fields: [userId], references: [id])
   Vendor     Vendor  @relation(fields: [vendorId], references: [id])
-  @@map("user_companies")
+  @@map("user_vendors")
 }
 
 
@@ -61,7 +62,7 @@ model Product {
   categoryId  String
   currencyType String
   images      String[]
-  vendorId  String
+  vendorId    String
   stock       Int      @default(0) // Stock quantity
   createdAt   DateTime @default(now())
   updatedAt   DateTime @updatedAt
@@ -77,34 +78,35 @@ model Category {
   id          String   @id @default(auto()) @map("_id") @db.ObjectId
   name        String
   description String?
-  vendorId  String
-  parentId    String?
+  vendorId    String
+  parentId    String?    
   createdAt   DateTime     @default(now())
   updatedAt   DateTime     @updatedAt
   deletedAt   DateTime?
   Vendor     Vendor      @relation(fields: [vendorId], references: [id])
   Subcategories Category[] @relation("Subcategories")
-  Parent       Category?   @relation("Subcategories", fields: [parentId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  Parent      Category?   @relation("Subcategories", fields: [parentId], references: [id], onDelete: NoAction, onUpdate: NoAction)
   Product     Product[]
   @@map("categories")
 }
 
 model Role {
-  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  id          String          @id @default(auto()) @map("_id") @db.ObjectId
   name        String          @unique
-  Permissions RolePermission[]
-  User        User[]
+  permissions RolePermission[]  // Relationship with Permission through RolePermission
+  users       User[]        
   deletedAt   DateTime?
   createdAt   DateTime        @default(now())
   updatedAt   DateTime        @updatedAt
   @@map("roles")
 }
 
+
 model Permission {
-  id          String       @id @default(auto()) @map("_id") @db.ObjectId
+  id          String          @id @default(auto()) @map("_id") @db.ObjectId
   name        String          @unique
   description String?
-  Roles       RolePermission[]
+  roles       RolePermission[] // Relationship with Role through RolePermission
   createdAt   DateTime        @default(now())
   updatedAt   DateTime        @updatedAt
   deletedAt   DateTime?
@@ -112,11 +114,11 @@ model Permission {
 }
 
 model RolePermission {
-  id          String       @id @default(auto()) @map("_id") @db.ObjectId
+  id           String      @id @default(auto()) @map("_id") @db.ObjectId
   roleId       String
   permissionId String
-  Role         Role        @relation(fields: [roleId], references: [id])
-  Permission   Permission  @relation(fields: [permissionId], references: [id])
+  role         Role        @relation(fields: [roleId], references: [id], onDelete: Cascade)
+  permission   Permission  @relation(fields: [permissionId], references: [id], onDelete: Cascade)
   @@unique([roleId, permissionId])
   @@map("role_permissions")
 }
@@ -166,10 +168,11 @@ model CartItem {
   vendorId  String
   invoiceId String?  // Add this field if linking to Invoice
   quantity  Int
+  price     Float
   Cart      Cart     @relation(fields: [cartId], references: [id], onDelete: Cascade, onUpdate: Cascade)
   Product   Product  @relation(fields: [productId], references: [id], onDelete: NoAction, onUpdate: NoAction)
   Invoice   Invoice? @relation(fields: [invoiceId], references: [id]) // Add this if linking to Invoice
-  Vendor   Vendor   @relation(fields: [vendorId], references: [id])
+  Vendor    Vendor   @relation(fields: [vendorId], references: [id])
   @@map("cart_items")
 }
 
@@ -180,10 +183,12 @@ model Order {
   total     Float
   paymentMethod String
   paymentStatus String
+  vendorId  String
   createdAt DateTime   @default(now())
   updatedAt DateTime   @updatedAt
   OrderItem OrderItem[]
   User      User       @relation(fields: [userId], references: [id])
+  Vendor    Vendor   @relation(fields: [vendorId], references: [id])
   @@map("orders")
 }
 

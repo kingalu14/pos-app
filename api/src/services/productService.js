@@ -32,16 +32,18 @@ const getProductsByVendor = async (vendorId) => {
 
 
 const getProductById = async (vendorId, productId) => {
+    console.log("vendorId, productId",vendorId, productId);
     const product = await prisma.product.findFirst({
         where: {
             vendorId,
-            productId,
+            id:productId,
             deletedAt: null
         },
         include: {
             Category: true
         }
     });
+    console.log("proudct",product);
     return product;
 };
 

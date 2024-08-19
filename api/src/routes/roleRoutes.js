@@ -11,6 +11,14 @@ const {
 const authenticateToken = require('../middlewares/authenticateToken');
 const checkPermission = require('../middlewares/authorization');
 
+router.post('/role', createRole);
+router.post('/permission', createPermission);
+router.post('/assign-permission', assignPermissionToRole);
+router.post('/assign-role',assignRoleToUser);
+router.get('/role/:roleId/permissions',getPermissionsForRole);
+
+
+
 router.post('/role', authenticateToken, createRole);
 router.post('/permission', authenticateToken, createPermission);
 router.post('/assign-permission', authenticateToken, assignPermissionToRole);

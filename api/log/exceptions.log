@@ -1,359 +1,360 @@
-2024-08-08T23:53:07.616Z [pos-app] error: uncaughtException: dotenv.config is not a function
-TypeError: dotenv.config is not a function
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:34:8)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+2024-08-15T16:07:50.252Z [pos-app] error: uncaughtException: logError is not defined
+ReferenceError: logError is not defined
+    at addItem (D:\projects\pos-app\api\src\controllers\cartController.js:31:13) (method: undefined)
+2024-08-15T16:10:26.714Z [pos-app] error: uncaughtException: logError is not defined
+ReferenceError: logError is not defined
+    at addItem (D:\projects\pos-app\api\src\controllers\cartController.js:31:13) (method: undefined)
+2024-08-15T16:11:36.278Z [pos-app] error: uncaughtException: logError is not defined
+ReferenceError: logError is not defined
+    at addItem (D:\projects\pos-app\api\src\controllers\cartController.js:31:13) (method: undefined)
+2024-08-15T16:14:37.948Z [pos-app] error: uncaughtException: logError is not defined
+ReferenceError: logError is not defined
+    at addItem (D:\projects\pos-app\api\src\controllers\cartController.js:31:13) (method: undefined)
+2024-08-15T17:43:04.442Z [pos-app] error: uncaughtException: Unexpected token ')'
+D:\projects\pos-app\api\src\controllers\cartController.js:93
+               if(paymentResult.status==)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
-    at node:internal/main/run_main_module:28:49 (method: undefined)
-2024-08-08T23:56:55.395Z [pos-app] error: uncaughtException: dotenv.config is not a function
-TypeError: dotenv.config is not a function
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:34:8)
-    at Module._compile (node:internal/modules/cjs/loader:1358:14)
-    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
-    at Module.load (node:internal/modules/cjs/loader:1208:32)
-    at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
-    at node:internal/main/run_main_module:28:49 (method: undefined)
-2024-08-10T20:19:12.588Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
-2024-08-10T20:24:08.035Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
-2024-08-10T20:28:24.810Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
-2024-08-10T20:30:41.734Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:19:13) (method: undefined)
-2024-08-10T20:31:37.734Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:20:13) (method: undefined)
-2024-08-10T20:34:55.733Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:20:13) (method: undefined)
-2024-08-10T20:52:37.102Z [pos-app] error: uncaughtException: res is not defined
-ReferenceError: res is not defined
-    at CartService.getOrCreateCart (D:\projects\pos-app\api\src\services\cartService.js:22:13) (method: undefined)
-2024-08-13T13:49:47.368Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\cartRoutes.js:2:24)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-15T17:44:54.321Z [pos-app] error: uncaughtException: Unexpected token ')'
+D:\projects\pos-app\api\src\controllers\cartController.js:93
+               if(paymentResult.status==)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T13:50:31.394Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\cartRoutes.js:2:24)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-15T17:44:59.867Z [pos-app] error: uncaughtException: Unexpected token ')'
+D:\projects\pos-app\api\src\controllers\cartController.js:93
+               if(paymentResult.status==)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T13:53:30.500Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\cartRoutes.js:2:24)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-15T17:45:15.846Z [pos-app] error: uncaughtException: Unexpected token ')'
+D:\projects\pos-app\api\src\controllers\cartController.js:93
+               if(paymentResult.status==)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T13:58:08.794Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\cartRoutes.js:2:24)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-15T17:45:38.465Z [pos-app] error: uncaughtException: Unexpected token ')'
+D:\projects\pos-app\api\src\controllers\cartController.js:93
+               if(paymentResult.status==)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T13:58:42.720Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\cartRoutes.js:2:24)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-15T17:46:07.841Z [pos-app] error: uncaughtException: Unexpected token ')'
+D:\projects\pos-app\api\src\controllers\cartController.js:93
+               if(paymentResult.status==)
+                                        ^
+
+SyntaxError: Unexpected token ')'
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:04:05.126Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\cartRoutes.js:2:24)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:15:34.063Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:12:27.815Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:15:54.297Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:14:05.849Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:16:17.323Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:14:38.827Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:16:32.501Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:32:27.920Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:16:45.289Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:37:57.398Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:17:24.626Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:41:25.470Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:17:45.989Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T14:52:57.293Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:18:18.550Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T15:10:56.638Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:18:51.297Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T15:11:15.919Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:19:19.419Z [pos-app] error: uncaughtException: userWithPermissions is not defined
+ReferenceError: userWithPermissions is not defined
+    at Object.<anonymous> (D:\projects\pos-app\api\src\middlewares\authorization.js:71:5)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T15:13:23.780Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\roleRoutes.js:12:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:19:39.916Z [pos-app] error: uncaughtException: userWithPermissions is not defined
+ReferenceError: userWithPermissions is not defined
+    at Object.<anonymous> (D:\projects\pos-app\api\src\middlewares\authorization.js:71:5)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T15:13:52.183Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\roleRoutes.js:12:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:20:01.411Z [pos-app] error: uncaughtException: userWithPermissions is not defined
+ReferenceError: userWithPermissions is not defined
+    at Object.<anonymous> (D:\projects\pos-app\api\src\middlewares\authorization.js:71:5)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T15:17:16.836Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\roleRoutes.js:12:25)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:20:24.120Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T15:17:40.270Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:20:43.497Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
-2024-08-13T20:06:51.365Z [pos-app] error: uncaughtException: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-Error: Cannot find module './routes/vendorRoutes'
-Require stack:
-- D:\projects\pos-app\api\src\index.js
-    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
-    at Module._load (node:internal/modules/cjs/loader:986:27)
     at Module.require (node:internal/modules/cjs/loader:1233:19)
     at require (node:internal/modules/helpers:179:18)
-    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:29:22)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:20:48.610Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
     at Module._compile (node:internal/modules/cjs/loader:1358:14)
     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
     at Module.load (node:internal/modules/cjs/loader:1208:32)
     at Module._load (node:internal/modules/cjs/loader:1024:12)
-    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) (method: undefined)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:22:00.916Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:22:08.198Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:22:13.067Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:22:18.305Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:24:59.407Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)
+2024-08-18T23:42:10.811Z [pos-app] error: uncaughtException: checkPermission is not a function
+TypeError: checkPermission is not a function
+    at Object.<anonymous> (D:\projects\pos-app\api\src\routes\categoryRoutes.js:14:49)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (D:\projects\pos-app\api\src\index.js:24:26)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10) (method: undefined)

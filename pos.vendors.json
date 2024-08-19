@@ -1,0 +1,44 @@
+[{
+  "_id": {
+    "$oid": "66a167a7d430eef9ef276295"
+  },
+  "name": "King Info Tech AS",
+  "description": "King Info Tech is software company",
+  "createdAt": {
+    "$date": "2024-07-24T20:44:23.791Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-24T21:11:10.995Z"
+  },
+  "deletedAt": null
+},
+{
+  "_id": {
+    "$oid": "66a16d5656ba5064b6afe03a"
+  },
+  "name": "Fetty fashion",
+  "description": "Fetty fashion clothing and shoes",
+  "createdAt": {
+    "$date": "2024-07-24T21:08:38.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-24T21:13:29.970Z"
+  },
+  "deletedAt": {
+    "$date": "2024-07-24T21:13:29.970Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ae3b66b2f5ec5e17b1ef26"
+  },
+  "name": "abuu Tech",
+  "description": "IT company",
+  "createdAt": {
+    "$date": "2024-08-03T14:15:02.479Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-03T14:15:02.479Z"
+  },
+  "deletedAt": null
+}]

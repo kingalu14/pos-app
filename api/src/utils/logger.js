@@ -1,23 +1,21 @@
+const dotenv = require('dotenv');
+dotenv.config();
 const path = require('path');
 const fs = require('fs');
 const {LOGGER_FILE} = require('../constants/index')
-const winstonMongo = require('winston-mongodb')
-const util = require('util');
 const {
-    createLogger,
-    transports,
-    format
-} = require('winston');
+  createLogger,
+  transports,
+  format
+} = require('winston')
+const { MongoDB } = require('winston-mongodb');
+const util = require('util');
 
 //const DailyRotateFile = require('winston-daily-rotate-file');
 
 const { combine, timestamp, label, printf } = format;
 
-const myFormat = printf(({ level, message, label, timestamp }) => {
-  return `${timestamp} [${label}] ${level}: ${message}`;
-});
-
-// Custom format to include method name and arguments
+//Custom format to include method name and arguments
 const customFormat = format.printf(({ level, message, label, timestamp, methodName}) => {
     return `${timestamp} [${label}] ${level}: ${message} (method: ${methodName})`;
   });
@@ -51,7 +49,7 @@ const logger = createLogger({
             filename:infoLog,
             level:'info',
         }),
-         new transports.File({
+        new transports.File({
             filename:errorLog,
             level:'error',
         }),
@@ -59,11 +57,12 @@ const logger = createLogger({
             filename:warningLog,
             level:'warning',
         }),
-        new transports.MongoDB({
-            level:'error',
-            db:process.env.DATABASE_URL,
-            customFormat
-        }),
+        // new MongoDB({
+        //     db:process.env.DATABASE_URL,
+        //     level:'error',
+        //     collection: 'log',
+        //     customFormat
+        // })
     ],
     exceptionHandlers: [
         new transports.File({ filename: exceptionLog })

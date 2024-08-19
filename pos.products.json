@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "66a20ebbbbedb518682e1a63"
+  },
+  "name": "Brevis",
+  "description": "test products",
+  "price": 5000,
+  "categoryId": "66a177e9991462a90b5ef8e4",
+  "currencyType": "usd",
+  "images": [
+    "https://th.bing.com/th/id/R.942d6f3bf7c0c40cf688b2c8f17b082b?rik=v%2bXTZ2zH7I%2be7w&riu=http%3a%2f%2fs.auto.drom.ru%2fimg1%2fcatalog%2fphotos%2ffullsize%2ftoyota%2fbrevis%2ftoyota_brevis_10259.jpg&ehk=qPQhVRbX05BX7aF7edR7SMO3BBvrtWOwZ2XGPSeli%2bc%3d&risl=&pid=ImgRaw&r=0"
+  ],
+  "stock": {
+    "$numberLong": "100"
+  },
+  "createdAt": {
+    "$date": "2024-07-25T08:37:15.941Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-25T10:07:57.120Z"
+  },
+  "deletedAt": null,
+  "vendorId": "66a167a7d430eef9ef276295"
+},
+{
+  "_id": {
+    "$oid": "66a20f41bbedb518682e1a64"
+  },
+  "name": "test test 2",
+  "description": "test products",
+  "price": 3000,
+  "categoryId": "66a177e9991462a90b5ef8e4",
+  "currencyType": "usd",
+  "images": [
+    "https://th.bing.com/th/id/R.942d6f3bf7c0c40cf688b2c8f17b082b?rik=v%2bXTZ2zH7I%2be7w&riu=http%3a%2f%2fs.auto.drom.ru%2fimg1%2fcatalog%2fphotos%2ffullsize%2ftoyota%2fbrevis%2ftoyota_brevis_10259.jpg&ehk=qPQhVRbX05BX7aF7edR7SMO3BBvrtWOwZ2XGPSeli%2bc%3d&risl=&pid=ImgRaw&r=0"
+  ],
+  "stock": {
+    "$numberLong": "40"
+  },
+  "createdAt": {
+    "$date": "2024-07-25T08:39:29.596Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-25T10:02:52.660Z"
+  },
+  "deletedAt": null,
+  "vendorId": "66a167a7d430eef9ef276295"
+},
+{
+  "_id": {
+    "$oid": "66a20f52bbedb518682e1a65"
+  },
+  "name": "test",
+  "description": "test products",
+  "price": 3000,
+  "categoryId": "66a177e9991462a90b5ef8e4",
+  "currencyType": "usd",
+  "images": [
+    "https://th.bing.com/th/id/R.942d6f3bf7c0c40cf688b2c8f17b082b?rik=v%2bXTZ2zH7I%2be7w&riu=http%3a%2f%2fs.auto.drom.ru%2fimg1%2fcatalog%2fphotos%2ffullsize%2ftoyota%2fbrevis%2ftoyota_brevis_10259.jpg&ehk=qPQhVRbX05BX7aF7edR7SMO3BBvrtWOwZ2XGPSeli%2bc%3d&risl=&pid=ImgRaw&r=0"
+  ],
+  "stock": {
+    "$numberLong": "30"
+  },
+  "createdAt": {
+    "$date": "2024-07-25T08:39:46.750Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-25T10:48:36.960Z"
+  },
+  "deletedAt": {
+    "$date": "2024-07-25T10:48:36.957Z"
+  },
+  "vendorId": "66a167a7d430eef9ef276295"
+}]

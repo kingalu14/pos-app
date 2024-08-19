@@ -1,5 +1,6 @@
 const categoryService = require('../services/categoryService');
 const prisma = require('../config/prisma');
+const {logInfo,logError} = require('../utils/logger');
 
 const createCategory = async (req, res) => {
     try {
@@ -15,6 +16,7 @@ const createCategory = async (req, res) => {
         const category = await categoryService.createCategory(userVendor.vendorId, name, description, parentId);
         res.status(201).json({ message: 'Category created successfully', category });
     } catch (error) {
+        logError('CategoryController->createCategory',error);  
         res.status(400).json({ message: error.message });
     }
 };
@@ -25,14 +27,13 @@ const getCategoriesByVendor = async (req, res) => {
         const userVendor = await prisma.userVendor.findFirst({
             where: { userId }
         });
-
         if (!userVendor) {
             return res.status(403).json({ message: 'You do not belong to any Vendor' });
         }
         const categories = await categoryService.getCategoriesByVendor(userVendor.vendorId);
-        console.log(categories);
         res.status(200).json(categories);
     } catch (error) {
+        logError('CategoryController->getCategoriesByVendor',error);  
         res.status(400).json({ message: error.message });
     }
 };
@@ -51,6 +52,7 @@ const getCategoryById = async (req, res) => {
         const category = await categoryService.getCategoryById(userVendor.vendorId,categoryId);
         res.status(200).json(category);
     } catch (error) {
+        logError('CategoryController->getCategoryById',error);  
         res.status(400).json({ message: error.message });
     }
 };
@@ -70,6 +72,7 @@ const deleteCategory = async (req, res) => {
         const category = await categoryService.deleteCategory(userVendor.vendorId, categoryId);
         res.status(200).json({ message: 'Category deleted successfully', category });
     } catch (error) {
+        logError('CategoryController->deleteCategory',error);  
         res.status(400).json({ message: error.message });
     }
 };
@@ -92,6 +95,7 @@ const updateCategory = async (req, res) => {
         const category = await categoryService.updateCategory(userId, categoryId, updateData);
         res.status(200).json({ message: 'Category updated successfully', category });
     } catch (error) {
+        logError('CategoryController->updateCategory',error);  
         res.status(400).json({ message: error.message });
     }
 };

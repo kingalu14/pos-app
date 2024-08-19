@@ -11,16 +11,16 @@ const checkPermission = (permissionName) => {
                 where: {
                     id: user.roleId
                 },
-                include: {
-                    Permissions: {
-                        include: {
-                            Permission: true
-                        }
-                    }
-                }
             });
-
-            if (role && role.Permissions.some(rolePermission => rolePermission.Permission.name === permissionName)) {
+            if(!role){
+                throw new Error('Not Authorized for this action');
+            }
+            let permissions = [];
+            const usersPermissions = await userWithPermissions(req.user.userId);
+            usersPermissions.role.permissions.forEach(p => {
+              permissions.push(p.permission.name);
+            });
+            if (permissions.includes(permissionName) || permissions.includes("all")){
                 next();
             } else {
                 res.status(403).json({ message: 'Forbidden' });
@@ -31,5 +31,23 @@ const checkPermission = (permissionName) => {
     };
 };
 
-module.exports = checkPermission;
+const userWithPermissions = async (userId) => {
+  return  await prisma.user.findUnique({
+    where: {
+      id: userId,
+    },
+    include: {
+      role: {
+        include: {
+          permissions: {
+            include: {
+              permission: true,
+            },
+          },
+        },
+      },
+    },
+  });
+};
 
+module.exports =  checkPermission

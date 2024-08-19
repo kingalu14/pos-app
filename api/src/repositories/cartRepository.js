@@ -1,5 +1,6 @@
 const prisma = require('../config/prisma');
 const { CART_STATUS } = require('../constants');
+const {logInfo,logError} = require('../utils/logger');
 
 class CartRepository {
 
@@ -27,7 +28,6 @@ class CartRepository {
         return cart;
     
     }
-
     async updateCartStatus(cartId, status) {
         return await prisma.cart.update({
             where: { id: cartId },
@@ -52,9 +52,9 @@ class CartRepository {
     },
    });
    return cart;
-}
+ }
 
-    async getItemById(cartItemId){
+ async getItemById(cartItemId){
           // Check if the cart item exists
         const cartItem = await prisma.cartItem.findUnique({
             where: { id: cartItemId },
@@ -74,16 +74,25 @@ class CartRepository {
             },
         });
     }
-
-    async createCartItem(cartId,productId,quantity){
-      const item = await prisma.cartItem.create({
-            data: {
-                cartId,
-                productId,
-                quantity,
-            },
-        });
-        return item;
+    
+    async createCartItem(cartId,productId,price,vendorId,quantity){
+        try{
+            console.log("cartId,productId,quantity",cartId,productId,quantity)
+            const item = await prisma.cartItem.create({
+                    data: {
+                        cartId,
+                        productId,
+                        price,
+                        vendorId,
+                        quantity,
+                    },
+                });
+                return item;
+         }catch(error){
+            console.log("error",error)
+            logError('CartRepository->createCartItem',error);
+        }
+      
     } 
 
     async removeItemFromCart(cartItemId) {
@@ -126,6 +135,5 @@ class CartRepository {
             data: { userId },
         });
     }
-}
-
+ }
 module.exports = new CartRepository();

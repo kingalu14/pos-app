@@ -1,0 +1,38 @@
+[{
+  "_id": {
+    "$oid": "66a65a17bf41e2ed7c42d5b0"
+  },
+  "companyId": "66a167a7d430eef9ef276295",
+  "packageId": "66a3056d05c6c54e2ae8b874",
+  "startDate": {
+    "$date": "2024-07-28T14:47:50.993Z"
+  },
+  "endDate": {
+    "$date": "2024-08-27T14:47:50.953Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-28T14:47:50.993Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-28T14:47:50.993Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a66909bf41e2ed7c42d5b2"
+  },
+  "companyId": "66a167a7d430eef9ef276295",
+  "packageId": "66a3056d05c6c54e2ae8b874",
+  "startDate": {
+    "$date": "2024-07-28T15:51:37.025Z"
+  },
+  "endDate": {
+    "$date": "2024-08-27T15:51:37.024Z"
+  },
+  "createdAt": {
+    "$date": "2024-07-28T15:51:37.025Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-28T15:51:37.025Z"
+  }
+}]

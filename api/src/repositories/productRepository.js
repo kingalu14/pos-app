@@ -1,10 +1,29 @@
 const prisma = require('../config/prisma');
-
+const {logInfo,logError} = require('../utils/logger');
 class ProductRepository {
 
     async decreaseInventory(orderId){
 
     }
+
+    async getProductById(id){
+        try{
+            const product = await prisma.product.findUnique({
+                where: {
+                    id:id,
+                    deletedAt: null
+                },
+                include: {
+                    Category: true
+                }
+            });
+            return product;
+        }
+        catch(error){  
+            logError('ProductRepository->getProductById',error);
+        }
+ 
+    };
 
     async  updateStock(vendorId, productId, stock) {
         const product = await prisma.product.findFirst({

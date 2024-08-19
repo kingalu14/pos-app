@@ -1,9 +1,8 @@
 ﻿const cartService = require('../services/cartService');
 const orderService = require('../services/orderService');
+const productService = require('../services/productService');
 const { CART_STATUS } = require('../constants/index');
 const { processStripePayment, processCashPayment } = require('../utils/paymentHandler');
-
-const cartRepository = require('../repositories/cartRepository');
 const {logInfo,logError} = require('../utils/logger');
 
 class CartController {
@@ -16,7 +15,7 @@ class CartController {
             logInfo('getCart',`cart created id :${cart.cartId} `);
             res.json(cart);
         } catch (error) {  
-            logError('CartController->getCart',error);
+           logError('CartController->getCart',error);
             res.status(500).json({ error:error.message });        
         }
     }
@@ -59,15 +58,15 @@ class CartController {
             if(!cart.CartItem || cart.CartItem.length <= 0){
                 return res.status(400).json({ message: 'Cart is empty' });         
             }
-            // Link the cart to the logged-in user if necessary
-            // if (!cart.userId) {
-            //     await cartService.linkCartToUser(cart.id, req.user.id);
-            // }
+            //Link the cart to the logged-in user if necessary
+            if (!cart.userId) {
+                await cartService.linkCartToUser(cart.id, req.user.id);
+            }
 
-            // Update cart status to 'CHECKOUT'
+            //Update cart status to 'CHECKOUT'
             await cartService.updateCartStatus(cart.id, CART_STATUS.CHECKOUT);
 
-                   // Group cart items by vendor
+             // Group cart items by vendor
             const itemsByVendor = cart.CartItem.reduce((acc, item) => {
                 if (!acc[item.vendorId]) {
                     acc[item.vendorId] = [];
@@ -75,26 +74,27 @@ class CartController {
                 acc[item.vendorId].push(item);
                 return acc;
             }, {});
+            console.log("itemsByVendor",itemsByVendor);
             const orders = [];
 
-            for (const [vendorId, items] of Object.entries(itemsByVendor)) {
-                // Calculate total price for the vendor's products
-                const currencyType = items[0].Product.currencyType; // Assuming all items have the same currencyType
-                const totalPrice = items.reduce((sum, item) => sum + item.Product.price * item.quantity, 0);
+            // for (const [vendorId, items] of Object.entries(itemsByVendor)) {
+            //     // Calculate total price for the vendor's products
+            //     const currencyType = items[0].Product.currencyType; // Assuming all items have the same currencyType
+            //     const totalPrice = items.reduce((sum, item) => sum + item.Product.price * item.quantity, 0);
     
-                // Process payment (you may need to split the payment by vendor or handle it in one go)
-                const paymentMethod = req.body.paymentMethod;
-                if (paymentMethod === 'card') {
-                    const paymentToken = req.body.paymentToken;
-                    await processStripePayment(totalPrice, currencyType, paymentToken, `Order payment for vendor ${vendorId}`);
-                } else if (paymentMethod === 'cash') {
-                    await processCashPayment(totalPrice, currencyType);
-                }
+            //     // Process payment (you may need to split the payment by vendor or handle it in one go)
+            //     const paymentMethod = req.body.paymentMethod;
+            //     if (paymentMethod === 'card') {
+            //         const paymentToken = req.body.paymentToken;
+            //         await processStripePayment(totalPrice, currencyType, paymentToken, `Order payment for vendor ${vendorId}`);
+            //     } else if (paymentMethod === 'cash') {
+            //         await processCashPayment(totalPrice, currencyType);
+            //     }
     
-                // Create order for the vendor
-                const order = await orderService.createOrderForVendor(req.user.id, vendorId, items);
-                orders.push(order);
-            }
+            //     // Create order for the vendor
+            //     const order = await orderService.createOrderForVendor(req.user.id, vendorId, items);
+            //     orders.push(order);
+            // }
             
             // Calculate total price from cart items
             console.log("cart.CartItem",cart.CartItem);
@@ -125,5 +125,7 @@ class CartController {
             res.status(500).json({ error: error.message });
         }
     }
+
 }
+
 module.exports = new CartController();

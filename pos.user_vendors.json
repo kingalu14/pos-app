@@ -1,0 +1,54 @@
+[{
+  "_id": {
+    "$oid": "66a167a8d430eef9ef276296"
+  },
+  "userId": "669edfb77371b3fabf591ea3",
+  "role": "admin",
+  "permissions": [
+    "all"
+  ],
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2024-07-24T20:44:23.791Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-24T20:44:23.791Z"
+  },
+  "vendorId": "66a167a7d430eef9ef276295"
+},
+{
+  "_id": {
+    "$oid": "66a16d5756ba5064b6afe03b"
+  },
+  "userId": "669edfb77371b3fabf591ea3",
+  "companyId": "66a16d5656ba5064b6afe03a",
+  "role": "admin",
+  "permissions": [
+    "all"
+  ],
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2024-07-24T21:08:38.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-24T21:08:38.848Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ae3b66b2f5ec5e17b1ef27"
+  },
+  "userId": "669edfb77371b3fabf591ea3",
+  "companyId": "66ae3b66b2f5ec5e17b1ef26",
+  "role": "admin",
+  "permissions": [
+    "all"
+  ],
+  "deletedAt": null,
+  "createdAt": {
+    "$date": "2024-08-03T14:15:02.479Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-03T14:15:02.479Z"
+  }
+}]

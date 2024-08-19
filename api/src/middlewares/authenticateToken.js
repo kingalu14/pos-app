@@ -1,8 +1,10 @@
-const jwt = require('jsonwebtoken');
-const {logInfo,logError} = require('../utils/logger');
 const dotenv = require('dotenv');
 dotenv.config();
+const jwt = require('jsonwebtoken');
+const {logInfo,logError} = require('../utils/logger');
 const  jwtSecret =process.env.JWT_SECRET;
+
+
 
 const authenticateToken = (req, res, next) => {
     const authHeader = req.headers['authorization'];

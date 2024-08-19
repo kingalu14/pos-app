@@ -3,7 +3,7 @@ const cartRepository = require('../repositories/cartRepository');
 const productRepository = require('../repositories/productRepository');
 
 class OrderService {
-    async createOrderFromCart(userId,cartId,paymentMethod,total,paymentStatus) {
+    async createOrderFoUserFromCart(userId,cartId,paymentMethod,total,paymentStatus) {
         // Create a new order
         const order = await orderRepository.createOrder(userId,paymentMethod,total,paymentStatus);
 

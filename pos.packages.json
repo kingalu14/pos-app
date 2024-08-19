@@ -1,0 +1,56 @@
+[{
+  "_id": {
+    "$oid": "66a3053405c6c54e2ae8b873"
+  },
+  "name": "TEST",
+  "price": 100000,
+  "currencyType": "TZS",
+  "duration": {
+    "$numberLong": "30"
+  },
+  "createdAt": {
+    "$date": "2024-07-26T02:08:52.387Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-26T02:11:13.373Z"
+  },
+  "deletedAt": {
+    "$date": "2024-07-26T02:11:13.352Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66a3056d05c6c54e2ae8b874"
+  },
+  "name": "premium",
+  "price": 300000,
+  "currencyType": "TZS",
+  "duration": {
+    "$numberLong": "30"
+  },
+  "createdAt": {
+    "$date": "2024-07-26T02:09:49.227Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-26T02:09:49.227Z"
+  },
+  "deletedAt": null
+},
+{
+  "_id": {
+    "$oid": "66a3059905c6c54e2ae8b875"
+  },
+  "name": "basic",
+  "price": 100000,
+  "currencyType": "TZS",
+  "duration": {
+    "$numberLong": "30"
+  },
+  "createdAt": {
+    "$date": "2024-07-26T02:10:33.024Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-26T02:10:33.024Z"
+  },
+  "deletedAt": null
+}]

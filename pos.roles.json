@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "669d75ce0a8e6e570df88b25"
+  },
+  "name": "admin",
+  "createdAt": {
+    "$date": "2024-07-21T20:55:40.692Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T20:55:40.692Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d765f0a8e6e570df88b26"
+  },
+  "name": "manager",
+  "createdAt": {
+    "$date": "2024-07-21T20:58:07.660Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T20:58:07.660Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d766e0a8e6e570df88b27"
+  },
+  "name": "employee",
+  "createdAt": {
+    "$date": "2024-07-21T20:58:22.754Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T20:58:22.754Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669d84d9becb6382140fc506"
+  },
+  "name": "superadmin",
+  "createdAt": {
+    "$date": "2024-07-21T21:59:51.911Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T21:59:51.911Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ad972c5cd10da0ec56427b"
+  },
+  "name": "customer",
+  "createdAt": {
+    "$date": "2024-08-03T02:34:20.147Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-03T02:34:20.147Z"
+  }
+}]

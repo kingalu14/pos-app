@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "669d75160a8e6e570df88b23"
+  },
+  "username": "kingalu",
+  "password": "$2a$10$o6epZGRgnY.jwDNzne.MIe.3N4p4WZDb/YBA9PtwF2HEugFA6/aAa",
+  "email": "test@mail.com",
+  "roleId": "669d84d9becb6382140fc506",
+  "createdAt": {
+    "$date": "2024-07-21T20:52:38.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-21T20:52:38.360Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "669edfb77371b3fabf591ea3"
+  },
+  "username": "abubakar",
+  "password": "$2a$10$HIa8vIO4D3.G5KolsBz9ruzjBKVsXv05KL5Ii1zaKzqQB5WEBUI7y",
+  "email": "abuu@mail.com",
+  "roleId": "669d75ce0a8e6e570df88b25",
+  "createdAt": {
+    "$date": "2024-07-22T22:39:51.101Z"
+  },
+  "updatedAt": {
+    "$date": "2024-07-22T22:39:51.101Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ad9ac39d104e56d17bb66a"
+  },
+  "username": "yaye",
+  "password": "$2a$10$7pVGNGlVU7mvB.4LDcY/7eWiT1qtMP9V6xyK0jO7TnQuKe8251TUu",
+  "email": "yaye@mail.com",
+  "roleId": "66ad972c5cd10da0ec56427b",
+  "createdAt": {
+    "$date": "2024-08-03T02:49:39.812Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-03T04:06:16.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "66ade0c0d52675919c10cbb9"
+  },
+  "username": "aynur",
+  "password": "$2a$10$IRAB/lQrZFOALOcquTFWIunDoDwT3RQyQ6aaAPxfNQo.QpjMlLIem",
+  "email": "aynur@mail.com",
+  "roleId": "",
+  "createdAt": {
+    "$date": "2024-08-03T07:48:16.688Z"
+  },
+  "updatedAt": {
+    "$date": "2024-08-03T07:48:16.688Z"
+  }
+}]

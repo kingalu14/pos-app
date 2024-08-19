@@ -1,105 +1,71 @@
-const prisma = require('../config/prisma');
+
+const categoryRepository = require('../repositories/categoryRepository');
 
 const createCategory = async (vendorId,name,description,parentId) => {
-    const category = await prisma.category.create({
-        data: {
-            name,
-            description,
-            vendorId,
-            parentId,
-            deletedAt: null
-        },
-    });
-    return category;
+    try{
+        if(!vendorId) {
+            throw new Error('vendor information required');
+        }   
+        if(!name) {
+            throw new Error('category name required');
+        }
+        return await categoryRepository.createCategory(vendorId,name,description,parentId);
+    }catch(error){
+        logError('createService->createCategory',error);  
+    } 
 };
 
-//a function to get a single category for specific userId  
 const getCategoriesByVendor = async (vendorId) => {
-    const categories = await prisma.category.findMany({
-        where: {
-            vendorId,
-            deletedAt: null
-        },
-        include: {
-            Subcategories: true,
-            Product: true
+    try{
+        if(!vendorId) {
+            throw new Error('vendor information required');
         }
-    });
-    return categories;
+        return await categoryRepository.getCategoriesByVendor(vendorId);
+    }catch(error){
+        logError('createService->getCategoriesByVendor',error);  
+    }
 };
 
 const getCategoryById = async (vendorId, categoryId) => {
-    const categories = await prisma.category.findFirst({
-        where: {
-            vendorId,
-            categoryId,
-            deletedAt: null
-        },
-        include: {
-            Subcategories: true,
-            Product: true
+    try{
+        if(!categoryId) {
+            throw new Error('category is required');
         }
-    });
-    return categories;
+        if(!vendorId) {
+            throw new Error('vendor information required');
+        }
+        return await categoryRepository.getCategoryById(vendorId, categoryId);
+    }catch(error){
+        logError('createService->getCategoryById',error);  
+    }
 };
 
 const deleteCategory = async (vendorId, categoryId) => {
-    const category = await prisma.category.findFirst({
-        where: {
-            id: categoryId,
-            vendorId,
-            deletedAt: null
+    try{
+        if(!categoryId) {
+            throw new Error('category is required');
         }
-    });
-
-    if (!category) {
-        throw new Error('Category not found or you do not have permission to delete this category');
+        if(!vendorId) {
+            throw new Error('vendor information required');
+        }
+        return await categoryRepository.deletedCategory(vendorId, categoryId);
+    }catch(error){
+        logError('createService->deleteCategory',error);  
     }
-
-    const deletedCategory = await prisma.category.update({
-        where: { id: categoryId },
-        data: { deletedAt: new Date() }
-    });
-
-    return deletedCategory;
 };
 
 const updateCategory = async (userId, categoryId, updateData) => {
-
-   if(!categoryId) {
-        throw new Error('categoryId is required');
+    try{ 
+        if(!categoryId) {
+             throw new Error('categoryId is required');
+         }
+         if(!userId) {
+             throw new Error('userId is required');
+         }
+         return await categoryRepository.updateCategory(userId, categoryId, updateData);
+    }catch(error){
+        logError('createService->updateCategory',error);  
     }
-
-    if(!userId) {
-        throw new Error('userId is required');
-    }
-   const userVendor = await prisma.userVendor.findFirst({
-       where: { userId }
-   });
-  
-   if (!userVendor) {
-       return res.status(403).json({ message: 'You do not belong to any Vendor' });
-   }
-  
-   const category = await prisma.category.findFirst({
-       where: {
-           id: categoryId,
-           vendorId: userVendor.vendorId,
-           deletedAt: null
-       }
-   });
-    console.log(category);
-  
-   if (!category) {
-       throw new Error('Category not found or you do not have permission to update this category');
-   }
-  
-   const updatedCategory = await prisma.category.update({
-       where: { id: categoryId },
-       data: { ...updateData, updatedAt: new Date() }
-   });
-  
-    return updatedCategory;
 };
 
 module.exports = {

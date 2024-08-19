@@ -3,6 +3,7 @@
     "",
     "\\prisma",
     "\\src",
+    "\\src\\config",
     "\\src\\constants",
     "\\src\\controllers",
     "\\src\\repositories",
@@ -10,6 +11,6 @@
     "\\src\\services",
     "\\src\\utils"
   ],
-  "SelectedNode": "\\src\\constants\\index.js",
+  "SelectedNode": "\\src\\config\\db.js",
   "PreviewInSolutionExplorer": false
 }

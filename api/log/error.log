@@ -903,3 +903,673 @@ D:\projects\pos-app\api\src\repositories\orderRepository.js:5:29
             })
 
 Argument `User` is missing. (method: checkoutCart)
+2024-08-14T18:26:34.700Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf6da7569c34680be29fa",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:26:34.726Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:27:56.182Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf72b81d2945e15bef8eb",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:27:56.186Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:28:41.337Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf758f624816a08b8ac84",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:28:41.343Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:29:49.807Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf79ddf56bf0ac0c5ce43",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:29:49.810Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:30:43.145Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf7d2b501cc240269d986",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:30:43.148Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:32:33.179Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf840bbcd393296250d26",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:32:33.182Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:33:15.991Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf840bbcd393296250d26",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:33:15.991Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:35:53.910Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf909c0fca315924de9db",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:35:53.911Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:36:22.677Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf926924d543c3586d829",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:36:22.677Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:40:08.977Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf926924d543c3586d829",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:40:08.978Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:40:19.196Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:78:42
+
+  75 }
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+→ 78   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcf926924d543c3586d829",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:40:19.196Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:42:47.871Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:79:42
+
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+  78     console.log("cartId,productId,quantity",cartId,productId,quantity)
+→ 79   const item = await prisma.cartItem.create({
+         data: {
+           cartId: "66bcfaa7e01f8d5ec78a47ee",
+           productId: "66a20ebbbbedb518682e1a63",
+           quantity: 1,
+       +   Cart: {
+       +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+       +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+       +     connect: CartWhereUniqueInput
+       +   }
+         }
+       })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:42:47.871Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T18:43:51.931Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:79:44
+
+  76 
+  77 async createCartItem(cartId,productId,quantity){
+  78     console.log("cartId,productId,quantity",cartId,productId,quantity)
+→ 79     const item = await prisma.cartItem.create({
+           data: {
+             cartId: "66bcfae77fd42fc0f2378326",
+             productId: "66a20ebbbbedb518682e1a63",
+             quantity: 1,
+         +   Cart: {
+         +     create: CartCreateWithoutCartItemInput | CartUncheckedCreateWithoutCartItemInput,
+         +     connectOrCreate: CartCreateOrConnectWithoutCartItemInput,
+         +     connect: CartWhereUniqueInput
+         +   }
+           }
+         })
+
+Argument `Cart` is missing. (method: CartService->addItemToCart)
+2024-08-14T18:43:51.934Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T19:03:16.603Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:10:46
+
+   7 }
+   8 
+   9 async getProductById(productId){
+→ 10     const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: CartService->addItemToCart)
+2024-08-14T19:03:16.604Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T19:04:00.433Z [pos-app] error: Error in CartService->addItemToCart: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:10:46
+
+   7 }
+   8 
+   9 async getProductById(productId){
+→ 10     const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: CartService->addItemToCart)
+2024-08-14T19:04:00.434Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T19:07:40.334Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(productId){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T19:07:40.335Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T19:07:40.335Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T19:10:27.352Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(productId){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T19:10:27.353Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T19:10:27.353Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T19:11:33.769Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(productId){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T19:11:33.772Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T19:11:33.773Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T19:13:21.123Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T19:13:21.124Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T19:13:21.124Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:21:24.491Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:21:24.492Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:21:24.492Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:22:18.808Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:22:18.811Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:22:18.811Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:27:36.090Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:27:36.092Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:27:36.092Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:31:57.007Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:31:57.010Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:31:57.011Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:33:54.207Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-14T22:34:23.601Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-14T22:57:51.592Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:57:51.594Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:57:51.594Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:58:18.592Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:58:18.594Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:58:18.594Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T22:59:53.364Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:11:50
+
+   8 
+   9 async getProductById(id){
+  10     try{
+→ 11         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T22:59:53.366Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T22:59:53.367Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:01:10.983Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-14T23:03:29.783Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:03:29.785Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:03:29.785Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:04:37.132Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:04:37.135Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:04:37.136Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:04:57.345Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:04:57.346Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:04:57.347Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:05:54.398Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:05:54.400Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:05:54.400Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:06:21.140Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:06:21.142Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:06:21.142Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:06:24.304Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:06:24.306Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:06:24.307Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-14T23:06:26.604Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-14T23:06:26.606Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-14T23:06:26.606Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T08:55:01.782Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-15T08:55:01.785Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-15T08:55:01.785Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T10:18:36.718Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Error converting field "vendorId" of expected non-nullable type "String", found incompatible value of "null". (method: ProductRepository->getProductById)
+2024-08-15T10:18:36.719Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-15T10:18:36.719Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T13:40:09.427Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findFirst(
+Inconsistent query result: Field Category is required to return data, got `null` instead. (method: ProductRepository->getProductById)
+2024-08-15T13:40:09.429Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-15T13:40:09.430Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T13:59:24.207Z [pos-app] error: Error in ProductRepository->getProductById: prisma.product.findOne is not a function (method: ProductRepository->getProductById)
+2024-08-15T13:59:24.209Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-15T13:59:24.209Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T14:01:42.560Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findUnique()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findUnique(
+Inconsistent query result: Field Category is required to return data, got `null` instead. (method: ProductRepository->getProductById)
+2024-08-15T14:01:42.563Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-15T14:01:42.563Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T14:03:49.876Z [pos-app] error: Error in ProductRepository->getProductById: 
+Invalid `prisma.product.findUnique()` invocation in
+D:\projects\pos-app\api\src\repositories\productRepository.js:12:50
+
+   9 async getProductById(id){
+  10     try{
+  11         console.log("id",id);
+→ 12         const product = await prisma.product.findUnique(
+Inconsistent query result: Field Category is required to return data, got `null` instead. (method: ProductRepository->getProductById)
+2024-08-15T14:03:49.879Z [pos-app] error: Error in CartService->addItemToCart: Cannot read properties of undefined (reading 'vendorId') (method: CartService->addItemToCart)
+2024-08-15T14:03:49.879Z [pos-app] error: Error in CartController->addItem: res is not defined (method: CartController->addItem)
+2024-08-15T15:17:26.783Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-15T15:55:45.593Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-15T16:02:28.591Z [pos-app] error: Error in checkoutCart: CART_STATUS is not defined (method: checkoutCart)
+2024-08-15T16:04:39.139Z [pos-app] error: Error in checkoutCart: CART_STATUS is not defined (method: checkoutCart)
+2024-08-15T16:16:24.422Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'currencyType') (method: checkoutCart)
+2024-08-15T16:19:12.875Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'currencyType') (method: checkoutCart)
+2024-08-15T16:21:05.968Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'currencyType') (method: checkoutCart)
+2024-08-15T16:27:06.474Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\services\productService.js:35:42
+
+  32 
+  33 
+  34 const getProductById = async (vendorId, productId) => {
+→ 35     const product = await prisma.product.findFirst(
+Inconsistent query result: Field Category is required to return data, got `null` instead. (method: checkoutCart)
+2024-08-15T16:29:24.084Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\services\productService.js:36:42
+
+  33 
+  34 const getProductById = async (vendorId, productId) => {
+  35     console.log("vendorId, productId",vendorId, productId);
+→ 36     const product = await prisma.product.findFirst(
+Inconsistent query result: Field Category is required to return data, got `null` instead. (method: checkoutCart)
+2024-08-15T16:33:37.469Z [pos-app] error: Error in checkoutCart: 
+Invalid `prisma.product.findFirst()` invocation in
+D:\projects\pos-app\api\src\services\productService.js:36:42
+
+  33 
+  34 const getProductById = async (vendorId, productId) => {
+  35     console.log("vendorId, productId",vendorId, productId);
+→ 36     const product = await prisma.product.findFirst({
+           where: {
+             vendorId: "66be20ccb7c4b0f9f6cc7227",
+             productId: "66be21f4b7c4b0f9f6cc722b",
+             ~~~~~~~~~
+             deletedAt: null,
+         ?   AND?: ProductWhereInput | ProductWhereInput[],
+         ?   OR?: ProductWhereInput[],
+         ?   NOT?: ProductWhereInput | ProductWhereInput[],
+         ?   id?: StringFilter | String,
+         ?   name?: StringFilter | String,
+         ?   description?: StringNullableFilter | String | Null,
+         ?   price?: FloatFilter | Float,
+         ?   categoryId?: StringFilter | String,
+         ?   currencyType?: StringFilter | String,
+         ?   images?: StringNullableListFilter,
+         ?   stock?: IntFilter | Int,
+         ?   createdAt?: DateTimeFilter | DateTime,
+         ?   updatedAt?: DateTimeFilter | DateTime,
+         ?   Vendor?: VendorRelationFilter | VendorWhereInput,
+         ?   Category?: CategoryRelationFilter | CategoryWhereInput,
+         ?   CartItem?: CartItemListRelationFilter,
+         ?   OrderItem?: OrderItemListRelationFilter
+           },
+           include: {
+             Category: true
+           }
+         })
+
+Unknown argument `productId`. Available options are marked with ?. (method: checkoutCart)
+2024-08-15T16:35:31.709Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'price') (method: checkoutCart)
+2024-08-15T16:36:28.403Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'price') (method: checkoutCart)
+2024-08-15T16:40:49.717Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-15T16:41:37.067Z [pos-app] error: Error in checkoutCart: Cannot read properties of undefined (reading 'price') (method: checkoutCart)
+2024-08-15T16:46:19.845Z [pos-app] error: Error in checkoutCart: orderService.createOrderForVendor is not a function (method: checkoutCart)
+2024-08-15T16:47:18.145Z [pos-app] error: Error in checkoutCart: orderService.createOrderForVendor is not a function (method: checkoutCart)
+2024-08-15T16:54:03.682Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-15T16:56:43.174Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-15T16:56:57.230Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-15T16:59:47.757Z [pos-app] error: Error in checkoutCart: orderService.createOrderForVendor is not a function (method: checkoutCart)
+2024-08-15T17:01:18.295Z [pos-app] error: Error in checkoutCart: orderService.createOrderForVendor is not a function (method: checkoutCart)
+2024-08-15T17:03:24.030Z [pos-app] error: Error in checkoutCart: orderService.createOrderForVendor is not a function (method: checkoutCart)
+2024-08-15T17:18:22.265Z [pos-app] error: Error in CartRepository->createCartItem: 
+Invalid `prisma.cartItem.create()` invocation in
+D:\projects\pos-app\api\src\repositories\cartRepository.js:81:48
+
+  78 async createCartItem(cartId,productId,price,vendorId,quantity){
+  79     try{
+  80         console.log("cartId,productId,quantity",cartId,productId,quantity)
+→ 81         const item = await prisma.cartItem.create({
+               data: {
+                 cartId: "66be385d22b7e68dd2db0c3f",
+                 productId: "66be33829570414e5bb8588f",
+                 price: "66be20ccb7c4b0f9f6cc7227",
+                 vendorId: 2,
+             +   quantity: Int
+               }
+             })
+
+Argument `quantity` is missing. (method: CartRepository->createCartItem)
+2024-08-15T17:24:26.679Z [pos-app] error: Error in checkoutCart: orderService.createOrderForVendor is not a function (method: checkoutCart)
+2024-08-18T13:47:52.786Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T15:37:04.485Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T16:46:42.531Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T16:53:17.699Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T17:21:27.580Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T17:21:36.354Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T17:27:34.180Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T18:47:04.434Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T18:47:50.875Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-18T18:49:04.741Z [pos-app] error: Error in authenticateToken: invalid signature (method: authenticateToken)
+2024-08-18T23:05:38.969Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)
+2024-08-19T00:49:32.506Z [pos-app] error: Error in authenticateToken: jwt expired (method: authenticateToken)

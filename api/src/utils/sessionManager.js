@@ -2,8 +2,10 @@ const session = require('express-session');
 const dotenv = require('dotenv');
 dotenv.config();
 const  sessionSecret =process.env.SESSION_SECRET;
+console.log("sessionSecret",sessionSecret);
 
 class SessionManager {
+    
      // Configure session middleware
     constructor() {
             this.sessionMiddleware = session({
